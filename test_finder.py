@@ -3,14 +3,15 @@ import sys
 import re
 import json
 from fuzzywuzzy import fuzz
+from google_images_download import google_images_download #Credit: https://github.com/hardikvasa/google-images-download#installation
 
 LOCATION_LOCATION = "/home/liam/application_data/atom/reddit/VexillologyBot/locations.json"
 COUNTRY_MATCH_THRESHOLD = 75
 
 class LinkObject:
-    def __init__(self, display_name, link):
+    def __init__(self, display_name, country_code):
         self.display_name = display_name
-        self.link = link
+        self.code = country_code
 
 
 def main():
@@ -29,19 +30,18 @@ def main():
             for alias in object.get("aliases"):
                 if(fuzz.partial_ratio(alias,title) > COUNTRY_MATCH_THRESHOLD):
                     print(alias)
-                    o.add(LinkObject(object.get("display-name"),object.get("svg-link")))
+                    o.add(LinkObject(object.get("display-name"),object.get("country-code")))
         print("")
         comment = "Hello! I did my best to find the following flags:\n"
         for object in o:
             display_name = object.display_name
-            link = object.link
-            print(display_name + " " + link);
-            if(link == "null"):
-                print("Do stuff here")
-            else:
-                new_link = "[%s](%s)\n"%(display_name,link)
-                comment+=new_link
+            code = object.code
+            print(display_name + " " + code);
+
+            url = "https://cdn.rawgit.com/hjnilsson/country-flags/master/svg/" + code + ".svg"
+            new_link = "[%s](%s)\n"%(display_name,url)
+            comment+=new_link
         if(comment != "Hello! I did my best to find the following flags:\n"):
-            comment += "^^I ^^am ^^a ^^bot |
+            comment += "^^I ^^am ^^a ^^bot"
             print(comment)
 main()
