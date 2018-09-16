@@ -1,1374 +1,1806 @@
 [
    {
+      "country-code": "af",
+      "display-name": "Afghanistan",
       "aliases": [
-         "New York City"
-      ],
-      "svg-link": "null",
-      "display-name": "New York City"
+         "afghanistan"
+      ]
    },
    {
+      "country-code": "al",
+      "display-name": "Albania",
       "aliases": [
          "albania"
-      ],
-      "svg-link": "null",
-      "display-name": "Albania"
+      ]
    },
    {
+      "country-code": "dz",
+      "display-name": "Algeria",
       "aliases": [
          "algeria"
-      ],
-      "svg-link": "null",
-      "display-name": "Algeria"
+      ]
    },
    {
+      "country-code": "as",
+      "display-name": "American Samoa",
+      "aliases": [
+         "american samoa"
+      ]
+   },
+   {
+      "country-code": "ad",
+      "display-name": "Andorra",
       "aliases": [
          "andorra"
-      ],
-      "svg-link": "null",
-      "display-name": "Andorra"
+      ]
    },
    {
+      "country-code": "ao",
+      "display-name": "Angola",
       "aliases": [
          "angola"
-      ],
-      "svg-link": "null",
-      "display-name": "Angola"
+      ]
    },
    {
+      "country-code": "ai",
+      "display-name": "Anguilla",
       "aliases": [
-         "antigua"
-      ],
-      "svg-link": "null",
-      "display-name": "Antigua"
+         "anguilla"
+      ]
    },
    {
+      "country-code": "aq",
+      "display-name": "Antarctica",
+      "aliases": [
+         "antarctica"
+      ]
+   },
+   {
+      "country-code": "ag",
+      "display-name": "Antigua and Barbuda",
+      "aliases": [
+         "antigua",
+         "barbuda"
+      ]
+   },
+   {
+      "country-code": "ar",
+      "display-name": "Argentina",
       "aliases": [
          "argentina"
-      ],
-      "svg-link": "null",
-      "display-name": "Argentina"
+      ]
    },
    {
+      "country-code": "am",
+      "display-name": "Armenia",
       "aliases": [
          "armenia"
-      ],
-      "svg-link": "null",
-      "display-name": "Armenia"
+      ]
    },
    {
+      "country-code": "aw",
+      "display-name": "Aruba",
+      "aliases": [
+         "aruba"
+      ]
+   },
+   {
+      "country-code": "au",
+      "display-name": "Australia",
       "aliases": [
          "australia"
-      ],
-      "svg-link": "null",
-      "display-name": "Australia"
+      ]
    },
    {
+      "country-code": "at",
+      "display-name": "Austria",
       "aliases": [
          "austria"
-      ],
-      "svg-link": "null",
-      "display-name": "Austria"
+      ]
    },
    {
+      "country-code": "az",
+      "display-name": "Azerbaijan",
       "aliases": [
          "azerbaijan"
-      ],
-      "svg-link": "null",
-      "display-name": "Azerbaijan"
+      ]
    },
    {
+      "country-code": "bs",
+      "display-name": "Bahamas",
       "aliases": [
          "bahamas"
-      ],
-      "svg-link": "null",
-      "display-name": "Bahamas"
+      ]
    },
    {
+      "country-code": "bh",
+      "display-name": "Bahrain",
       "aliases": [
          "bahrain"
-      ],
-      "svg-link": "null",
-      "display-name": "Bahrain"
+      ]
    },
    {
+      "country-code": "bd",
+      "display-name": "Bangladesh",
       "aliases": [
          "bangladesh"
-      ],
-      "svg-link": "null",
-      "display-name": "Bangladesh"
+      ]
    },
    {
+      "country-code": "bb",
+      "display-name": "Barbados",
       "aliases": [
          "barbados"
-      ],
-      "svg-link": "null",
-      "display-name": "Barbados"
+      ]
    },
    {
+      "country-code": "by",
+      "display-name": "Belarus",
       "aliases": [
          "belarus"
-      ],
-      "svg-link": "null",
-      "display-name": "Belarus"
+      ]
    },
    {
+      "country-code": "be",
+      "display-name": "Belgium",
       "aliases": [
          "belgium"
-      ],
-      "svg-link": "null",
-      "display-name": "Belgium"
+      ]
    },
    {
+      "country-code": "bz",
+      "display-name": "Belize",
       "aliases": [
          "belize"
-      ],
-      "svg-link": "null",
-      "display-name": "Belize"
+      ]
    },
    {
+      "country-code": "bj",
+      "display-name": "Benin",
       "aliases": [
          "benin"
-      ],
-      "svg-link": "null",
-      "display-name": "Benin"
+      ]
    },
    {
+      "country-code": "bm",
+      "display-name": "Bermuda",
+      "aliases": [
+         "bermuda"
+      ]
+   },
+   {
+      "country-code": "bt",
+      "display-name": "Bhutan",
       "aliases": [
          "bhutan"
-      ],
-      "svg-link": "null",
-      "display-name": "Bhutan"
+      ]
    },
    {
+      "country-code": "bo",
+      "display-name": "Plurinational State of Bolivia",
       "aliases": [
          "bolivia"
-      ],
-      "svg-link": "null",
-      "display-name": "Bolivia"
+      ]
    },
    {
+      "country-code": "bq",
+      "display-name": "Caribbean Netherlands",
       "aliases": [
-         "bosnia herzegovina"
-      ],
-      "svg-link": "null",
-      "display-name": "Bosnia Herzegovina"
+         "bonaire",
+         "sint eustatius",
+         "saba",
+         "caribbean netherlands"
+      ]
    },
    {
+      "country-code": "ba",
+      "display-name": "Bosnia and Herzegovina",
+      "aliases": [
+         "bosnia",
+         "herzegovina"
+      ]
+   },
+   {
+      "country-code": "bw",
+      "display-name": "Botswana",
       "aliases": [
          "botswana"
-      ],
-      "svg-link": "null",
-      "display-name": "Botswana"
+      ]
    },
    {
+      "country-code": "bv",
+      "display-name": "Bouvet Island",
+      "aliases": [
+         "bouvet"
+      ]
+   },
+   {
+      "country-code": "br",
+      "display-name": "Brazil",
       "aliases": [
          "brazil"
-      ],
-      "svg-link": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png",
-      "display-name": "Brazil"
+      ]
    },
    {
+      "country-code": "io",
+      "display-name": "British Indian Ocean Territory",
       "aliases": [
-         "brunei"
-      ],
-      "svg-link": "null",
-      "display-name": "Brunei"
+         "british indian ocean territory"
+      ]
    },
    {
+      "country-code": "bn",
+      "display-name": "Brunei Darussalam",
+      "aliases": [
+         "brunei darussalam"
+      ]
+   },
+   {
+      "country-code": "bg",
+      "display-name": "Bulgaria",
       "aliases": [
          "bulgaria"
-      ],
-      "svg-link": "null",
-      "display-name": "Bulgaria"
+      ]
    },
    {
+      "country-code": "bf",
+      "display-name": "Burkina Faso",
       "aliases": [
-         "burkina"
-      ],
-      "svg-link": "null",
-      "display-name": "Burkina"
+         "burkina faso"
+      ]
    },
    {
+      "country-code": "bi",
+      "display-name": "Burundi",
       "aliases": [
          "burundi"
-      ],
-      "svg-link": "null",
-      "display-name": "Burundi"
+      ]
    },
    {
+      "country-code": "kh",
+      "display-name": "Cambodia",
       "aliases": [
          "cambodia"
-      ],
-      "svg-link": "null",
-      "display-name": "Cambodia"
+      ]
    },
    {
+      "country-code": "cm",
+      "display-name": "Cameroon",
       "aliases": [
          "cameroon"
-      ],
-      "svg-link": "null",
-      "display-name": "Cameroon"
+      ]
    },
    {
+      "country-code": "ca",
+      "display-name": "Canada",
       "aliases": [
          "canada"
-      ],
-      "svg-link": "null",
-      "display-name": "Canada"
+      ]
    },
    {
+      "country-code": "cv",
+      "display-name": "Cape Verde",
       "aliases": [
          "cape verde"
-      ],
-      "svg-link": "null",
-      "display-name": "Cape Verde"
+      ]
    },
    {
+      "country-code": "ky",
+      "display-name": "Cayman Islands",
       "aliases": [
-         "central african rep"
-      ],
-      "svg-link": "null",
-      "display-name": "Central African Rep"
+         "cayman islands"
+      ]
    },
    {
+      "country-code": "cf",
+      "display-name": "Central African Republic",
+      "aliases": [
+         "central african republic"
+      ]
+   },
+   {
+      "country-code": "td",
+      "display-name": "Chad",
       "aliases": [
          "chad"
-      ],
-      "svg-link": "null",
-      "display-name": "Chad"
+      ]
    },
    {
+      "country-code": "cl",
+      "display-name": "Chile",
       "aliases": [
          "chile"
-      ],
-      "svg-link": "null",
-      "display-name": "Chile"
+      ]
    },
    {
+      "country-code": "cn",
+      "display-name": "China",
       "aliases": [
-         "china"
-      ],
-      "svg-link": "null",
-      "display-name": "China"
+         "china",
+         "chinese"
+      ]
    },
    {
+      "country-code": "cx",
+      "display-name": "Christmas Island",
+      "aliases": [
+         "christmas island"
+      ]
+   },
+   {
+      "country-code": "cc",
+      "display-name": "Cocos (Keeling) Islands",
+      "aliases": [
+         "cocos",
+         "keeling"
+      ]
+   },
+   {
+      "country-code": "co",
+      "display-name": "Colombia",
       "aliases": [
          "colombia"
-      ],
-      "svg-link": "null",
-      "display-name": "Colombia"
+      ]
    },
    {
+      "country-code": "km",
+      "display-name": "Comoros",
       "aliases": [
          "comoros"
-      ],
-      "svg-link": "null",
-      "display-name": "Comoros"
+      ]
    },
    {
+      "country-code": "cg",
+      "display-name": "Congo",
       "aliases": [
          "congo"
-      ],
-      "svg-link": "null",
-      "display-name": "Congo"
+      ]
    },
    {
+      "country-code": "cd",
+      "display-name": "the Democratic Republic of the Congo",
       "aliases": [
-         "democratic republic of the congo"
-      ],
-      "svg-link": "null",
-      "display-name": "Democratic Republic of the Congo"
+         "congo"
+      ]
    },
    {
+      "country-code": "ck",
+      "display-name": "Cook Islands",
+      "aliases": [
+         "cook islands"
+      ]
+   },
+   {
+      "country-code": "cr",
+      "display-name": "Costa Rica",
       "aliases": [
          "costa rica"
-      ],
-      "svg-link": "null",
-      "display-name": "Costa Rica"
+      ]
    },
    {
+      "country-code": "hr",
+      "display-name": "Croatia",
       "aliases": [
          "croatia"
-      ],
-      "svg-link": "null",
-      "display-name": "Croatia"
+      ]
    },
    {
+      "country-code": "cu",
+      "display-name": "Cuba",
       "aliases": [
          "cuba"
-      ],
-      "svg-link": "null",
-      "display-name": "Cuba"
+      ]
    },
    {
+      "country-code": "cw",
+      "display-name": "Cura\u00e7ao",
+      "aliases": [
+         "cura\u00e7ao",
+         "curaçao",
+         "curacao"
+      ]
+   },
+   {
+      "country-code": "cy",
+      "display-name": "Cyprus",
       "aliases": [
          "cyprus"
-      ],
-      "svg-link": "null",
-      "display-name": "Cyprus"
+      ]
    },
    {
+      "country-code": "cz",
+      "display-name": "Czech Republic",
       "aliases": [
          "czech republic"
-      ],
-      "svg-link": "null",
-      "display-name": "Czech Republic"
+      ]
    },
    {
+      "country-code": "ci",
+      "display-name": "\"C\u00f4te dIvoire\"",
+      "aliases": [
+         "\"c\u00f4te divoire\"",
+         "cote d'ivoire",
+         "cote diviore"
+      ]
+   },
+   {
+      "country-code": "dk",
+      "display-name": "Denmark",
       "aliases": [
          "denmark"
-      ],
-      "svg-link": "null",
-      "display-name": "Denmark"
+      ]
    },
    {
+      "country-code": "dj",
+      "display-name": "Djibouti",
       "aliases": [
          "djibouti"
-      ],
-      "svg-link": "null",
-      "display-name": "Djibouti"
+      ]
    },
    {
+      "country-code": "dm",
+      "display-name": "Dominica",
       "aliases": [
          "dominica"
-      ],
-      "svg-link": "null",
-      "display-name": "Dominica"
+      ]
    },
    {
+      "country-code": "do",
+      "display-name": "Dominican Republic",
       "aliases": [
          "dominican republic"
-      ],
-      "svg-link": "null",
-      "display-name": "Dominican Republic"
+      ]
    },
    {
-      "aliases": [
-         "east timor"
-      ],
-      "svg-link": "null",
-      "display-name": "East Timor"
-   },
-   {
+      "country-code": "ec",
+      "display-name": "Ecuador",
       "aliases": [
          "ecuador"
-      ],
-      "svg-link": "null",
-      "display-name": "Ecuador"
+      ]
    },
    {
+      "country-code": "eg",
+      "display-name": "Egypt",
       "aliases": [
          "egypt"
-      ],
-      "svg-link": "null",
-      "display-name": "Egypt"
+      ]
    },
    {
+      "country-code": "sv",
+      "display-name": "El Salvador",
       "aliases": [
          "el salvador"
-      ],
-      "svg-link": "null",
-      "display-name": "El Salvador"
+      ]
    },
    {
+      "country-code": "gq",
+      "display-name": "Equatorial Guinea",
       "aliases": [
          "equatorial guinea"
-      ],
-      "svg-link": "null",
-      "display-name": "Equatorial Guinea"
+      ]
    },
    {
+      "country-code": "er",
+      "display-name": "Eritrea",
       "aliases": [
          "eritrea"
-      ],
-      "svg-link": "null",
-      "display-name": "Eritrea"
+      ]
    },
    {
+      "country-code": "ee",
+      "display-name": "Estonia",
       "aliases": [
          "estonia"
-      ],
-      "svg-link": "null",
-      "display-name": "Estonia"
+      ]
    },
    {
+      "country-code": "et",
+      "display-name": "Ethiopia",
       "aliases": [
          "ethiopia"
-      ],
-      "svg-link": "null",
-      "display-name": "Ethiopia"
+      ]
    },
    {
+      "country-code": "fk",
+      "display-name": "Falkland Islands (Malvinas)",
+      "aliases": [
+         "falkland islands",
+         "malvinas"
+      ]
+   },
+   {
+      "country-code": "fo",
+      "display-name": "Faroe Islands",
+      "aliases": [
+         "faroe islands"
+      ]
+   },
+   {
+      "country-code": "fj",
+      "display-name": "Fiji",
       "aliases": [
          "fiji"
-      ],
-      "svg-link": "null",
-      "display-name": "Fiji"
+      ]
    },
    {
+      "country-code": "fi",
+      "display-name": "Finland",
       "aliases": [
          "finland"
-      ],
-      "svg-link": "null",
-      "display-name": "Finland"
+      ]
    },
    {
+      "country-code": "fr",
+      "display-name": "France",
       "aliases": [
          "france"
-      ],
-      "svg-link": "null",
-      "display-name": "France"
+      ]
    },
    {
+      "country-code": "gf",
+      "display-name": "French Guiana",
+      "aliases": [
+         "french guiana"
+      ]
+   },
+   {
+      "country-code": "pf",
+      "display-name": "French Polynesia",
+      "aliases": [
+         "french polynesia"
+      ]
+   },
+   {
+      "country-code": "tf",
+      "display-name": "French Southern Territories",
+      "aliases": [
+         "french southern territories"
+      ]
+   },
+   {
+      "country-code": "ga",
+      "display-name": "Gabon",
       "aliases": [
          "gabon"
-      ],
-      "svg-link": "null",
-      "display-name": "Gabon"
+      ]
    },
    {
+      "country-code": "gm",
+      "display-name": "Gambia",
       "aliases": [
          "gambia"
-      ],
-      "svg-link": "null",
-      "display-name": "Gambia"
+      ]
    },
    {
+      "country-code": "ge",
+      "display-name": "Georgia",
       "aliases": [
          "georgia"
-      ],
-      "svg-link": "null",
-      "display-name": "Georgia"
+      ]
    },
    {
+      "country-code": "de",
+      "display-name": "Germany",
       "aliases": [
          "germany"
-      ],
-      "svg-link": "null",
-      "display-name": "Germany"
+      ]
    },
    {
+      "country-code": "gh",
+      "display-name": "Ghana",
       "aliases": [
          "ghana"
-      ],
-      "svg-link": "null",
-      "display-name": "Ghana"
+      ]
    },
    {
+      "country-code": "gi",
+      "display-name": "Gibraltar",
+      "aliases": [
+         "gibraltar"
+      ]
+   },
+   {
+      "country-code": "gr",
+      "display-name": "Greece",
       "aliases": [
          "greece"
-      ],
-      "svg-link": "null",
-      "display-name": "Greece"
+      ]
    },
    {
+      "country-code": "gl",
+      "display-name": "Greenland",
+      "aliases": [
+         "greenland"
+      ]
+   },
+   {
+      "country-code": "gd",
+      "display-name": "Grenada",
       "aliases": [
          "grenada"
-      ],
-      "svg-link": "null",
-      "display-name": "Grenada"
+      ]
    },
    {
+      "country-code": "gp",
+      "display-name": "Guadeloupe",
+      "aliases": [
+         "guadeloupe"
+      ]
+   },
+   {
+      "country-code": "gu",
+      "display-name": "Guam",
+      "aliases": [
+         "guam"
+      ]
+   },
+   {
+      "country-code": "gt",
+      "display-name": "Guatemala",
       "aliases": [
          "guatemala"
-      ],
-      "svg-link": "null",
-      "display-name": "Guatemala"
+      ]
    },
    {
+      "country-code": "gg",
+      "display-name": "Guernsey",
+      "aliases": [
+         "guernsey"
+      ]
+   },
+   {
+      "country-code": "gn",
+      "display-name": "Guinea",
       "aliases": [
          "guinea"
-      ],
-      "svg-link": "null",
-      "display-name": "Guinea"
+      ]
    },
    {
+      "country-code": "gw",
+      "display-name": "Guinea-Bissau",
       "aliases": [
          "guinea-bissau"
-      ],
-      "svg-link": "null",
-      "display-name": "Guinea-Bissau"
+      ]
    },
    {
+      "country-code": "gy",
+      "display-name": "Guyana",
       "aliases": [
          "guyana"
-      ],
-      "svg-link": "null",
-      "display-name": "Guyana"
+      ]
    },
    {
+      "country-code": "ht",
+      "display-name": "Haiti",
       "aliases": [
          "haiti"
-      ],
-      "svg-link": "null",
-      "display-name": "Haiti"
+      ]
    },
    {
+      "country-code": "hm",
+      "display-name": "Heard Island and McDonald Islands",
+      "aliases": [
+         "heard island",
+         "mcdonald islands"
+      ]
+   },
+   {
+      "country-code": "va",
+      "display-name": "Holy See (Vatican City State)",
+      "aliases": [
+         "holy see",
+         "vatican city"
+      ]
+   },
+   {
+      "country-code": "hn",
+      "display-name": "Honduras",
       "aliases": [
          "honduras"
-      ],
-      "svg-link": "null",
-      "display-name": "Honduras"
+      ]
    },
    {
+      "country-code": "hk",
+      "display-name": "Hong Kong",
+      "aliases": [
+         "hong kong"
+      ]
+   },
+   {
+      "country-code": "hu",
+      "display-name": "Hungary",
       "aliases": [
          "hungary"
-      ],
-      "svg-link": "null",
-      "display-name": "Hungary"
+      ]
    },
    {
+      "country-code": "gb",
+      "display-name": "United Kingdom",
+      "aliases": [
+         " uk ",
+         "united kingdom",
+         "union jack"
+      ]
+   },
+   {
+      "country-code": "is",
+      "display-name": "Iceland",
       "aliases": [
          "iceland"
-      ],
-      "svg-link": "null",
-      "display-name": "Iceland"
+      ]
    },
    {
+      "country-code": "in",
+      "display-name": "India",
       "aliases": [
          "india"
-      ],
-      "svg-link": "null",
-      "display-name": "India"
+      ]
    },
    {
+      "country-code": "id",
+      "display-name": "Indonesia",
       "aliases": [
          "indonesia"
-      ],
-      "svg-link": "null",
-      "display-name": "Indonesia"
+      ]
    },
    {
+      "country-code": "ir",
+      "display-name": "Islamic Republic of Iran",
       "aliases": [
          "iran"
-      ],
-      "svg-link": "null",
-      "display-name": "Iran"
+      ]
    },
    {
+      "country-code": "iq",
+      "display-name": "Iraq",
       "aliases": [
          "iraq"
-      ],
-      "svg-link": "null",
-      "display-name": "Iraq"
+      ]
    },
    {
+      "country-code": "ie",
+      "display-name": "Ireland",
       "aliases": [
          "ireland"
-      ],
-      "svg-link": "null",
-      "display-name": "Ireland"
+      ]
    },
    {
+      "country-code": "im",
+      "display-name": "Isle of Man",
+      "aliases": [
+         "isle of man"
+      ]
+   },
+   {
+      "country-code": "il",
+      "display-name": "Israel",
       "aliases": [
          "israel"
-      ],
-      "svg-link": "null",
-      "display-name": "Israel"
+      ]
    },
    {
+      "country-code": "it",
+      "display-name": "Italy",
       "aliases": [
          "italy"
-      ],
-      "svg-link": "null",
-      "display-name": "Italy"
+      ]
    },
    {
-      "aliases": [
-         "ivory coast"
-      ],
-      "svg-link": "null",
-      "display-name": "Ivory Coast"
-   },
-   {
+      "country-code": "jm",
+      "display-name": "Jamaica",
       "aliases": [
          "jamaica"
-      ],
-      "svg-link": "null",
-      "display-name": "Jamaica"
+      ]
    },
    {
+      "country-code": "jp",
+      "display-name": "Japan",
       "aliases": [
          "japan"
-      ],
-      "svg-link": "null",
-      "display-name": "Japan"
+      ]
    },
    {
+      "country-code": "je",
+      "display-name": "Jersey",
+      "aliases": [
+         "jersey"
+      ]
+   },
+   {
+      "country-code": "jo",
+      "display-name": "Jordan",
       "aliases": [
          "jordan"
-      ],
-      "svg-link": "null",
-      "display-name": "Jordan"
+      ]
    },
    {
+      "country-code": "kz",
+      "display-name": "Kazakhstan",
       "aliases": [
          "kazakhstan"
-      ],
-      "svg-link": "null",
-      "display-name": "Kazakhstan"
+      ]
    },
    {
+      "country-code": "ke",
+      "display-name": "Kenya",
       "aliases": [
          "kenya"
-      ],
-      "svg-link": "null",
-      "display-name": "Kenya"
+      ]
    },
    {
+      "country-code": "ki",
+      "display-name": "Kiribati",
       "aliases": [
          "kiribati"
-      ],
-      "svg-link": "null",
-      "display-name": "Kiribati"
+      ]
    },
    {
+      "country-code": "kp",
+      "display-name": "North Korea",
       "aliases": [
-         "korea north"
-      ],
-      "svg-link": "null",
-      "display-name": "Korea North"
+         "democratic peoples republic of korea",
+         "north korea"
+      ]
    },
    {
+      "country-code": "kr",
+      "display-name": "South Korea",
       "aliases": [
-         "korea south"
-      ],
-      "svg-link": "null",
-      "display-name": "Korea South"
+         "republic of korea",
+         "south korea"
+      ]
    },
    {
-      "aliases": [
-         "kosovo"
-      ],
-      "svg-link": "null",
-      "display-name": "Kosovo"
-   },
-   {
+      "country-code": "kw",
+      "display-name": "Kuwait",
       "aliases": [
          "kuwait"
-      ],
-      "svg-link": "null",
-      "display-name": "Kuwait"
+      ]
    },
    {
+      "country-code": "kg",
+      "display-name": "Kyrgyzstan",
       "aliases": [
          "kyrgyzstan"
-      ],
-      "svg-link": "null",
-      "display-name": "Kyrgyzstan"
+      ]
    },
    {
+      "country-code": "la",
+      "display-name": "Lao Peoples Democratic Republic",
       "aliases": [
+         "lao peoples democratic republic",
          "laos"
-      ],
-      "svg-link": "null",
-      "display-name": "Laos"
+      ]
    },
    {
+      "country-code": "lv",
+      "display-name": "Latvia",
       "aliases": [
          "latvia"
-      ],
-      "svg-link": "null",
-      "display-name": "Latvia"
+      ]
    },
    {
+      "country-code": "lb",
+      "display-name": "Lebanon",
       "aliases": [
          "lebanon"
-      ],
-      "svg-link": "null",
-      "display-name": "Lebanon"
+      ]
    },
    {
+      "country-code": "ls",
+      "display-name": "Lesotho",
       "aliases": [
          "lesotho"
-      ],
-      "svg-link": "null",
-      "display-name": "Lesotho"
+      ]
    },
    {
+      "country-code": "lr",
+      "display-name": "Liberia",
       "aliases": [
          "liberia"
-      ],
-      "svg-link": "null",
-      "display-name": "Liberia"
+      ]
    },
    {
+      "country-code": "ly",
+      "display-name": "Libya",
       "aliases": [
          "libya"
-      ],
-      "svg-link": "null",
-      "display-name": "Libya"
+      ]
    },
    {
+      "country-code": "li",
+      "display-name": "Liechtenstein",
       "aliases": [
          "liechtenstein"
-      ],
-      "svg-link": "null",
-      "display-name": "Liechtenstein"
+      ]
    },
    {
+      "country-code": "lt",
+      "display-name": "Lithuania",
       "aliases": [
          "lithuania"
-      ],
-      "svg-link": "null",
-      "display-name": "Lithuania"
+      ]
    },
    {
+      "country-code": "lu",
+      "display-name": "Luxembourg",
       "aliases": [
          "luxembourg"
-      ],
-      "svg-link": "null",
-      "display-name": "Luxembourg"
+      ]
    },
    {
+      "country-code": "mo",
+      "display-name": "Macao",
+      "aliases": [
+         "macao"
+      ]
+   },
+   {
+      "country-code": "mk",
+      "display-name": "The former Yugoslav Republic of Macedonia",
       "aliases": [
          "macedonia"
-      ],
-      "svg-link": "null",
-      "display-name": "Macedonia"
+      ]
    },
    {
+      "country-code": "mg",
+      "display-name": "Madagascar",
       "aliases": [
          "madagascar"
-      ],
-      "svg-link": "null",
-      "display-name": "Madagascar"
+      ]
    },
    {
+      "country-code": "mw",
+      "display-name": "Malawi",
       "aliases": [
          "malawi"
-      ],
-      "svg-link": "null",
-      "display-name": "Malawi"
+      ]
    },
    {
+      "country-code": "my",
+      "display-name": "Malaysia",
       "aliases": [
          "malaysia"
-      ],
-      "svg-link": "null",
-      "display-name": "Malaysia"
+      ]
    },
    {
+      "country-code": "mv",
+      "display-name": "Maldives",
       "aliases": [
          "maldives"
-      ],
-      "svg-link": "null",
-      "display-name": "Maldives"
+      ]
    },
    {
+      "country-code": "ml",
+      "display-name": "Mali",
       "aliases": [
          "mali"
-      ],
-      "svg-link": "null",
-      "display-name": "Mali"
+      ]
    },
    {
+      "country-code": "mt",
+      "display-name": "Malta",
       "aliases": [
          "malta"
-      ],
-      "svg-link": "null",
-      "display-name": "Malta"
+      ]
    },
    {
+      "country-code": "mh",
+      "display-name": "Marshall Islands",
       "aliases": [
          "marshall islands"
-      ],
-      "svg-link": "null",
-      "display-name": "Marshall Islands"
+      ]
    },
    {
+      "country-code": "mq",
+      "display-name": "Martinique",
+      "aliases": [
+         "martinique"
+      ]
+   },
+   {
+      "country-code": "mr",
+      "display-name": "Mauritania",
       "aliases": [
          "mauritania"
-      ],
-      "svg-link": "null",
-      "display-name": "Mauritania"
+      ]
    },
    {
+      "country-code": "mu",
+      "display-name": "Mauritius",
       "aliases": [
          "mauritius"
-      ],
-      "svg-link": "null",
-      "display-name": "Mauritius"
+      ]
    },
    {
+      "country-code": "yt",
+      "display-name": "Mayotte",
+      "aliases": [
+         "mayotte"
+      ]
+   },
+   {
+      "country-code": "mx",
+      "display-name": "Mexico",
       "aliases": [
          "mexico"
-      ],
-      "svg-link": "null",
-      "display-name": "Mexico"
+      ]
    },
    {
+      "country-code": "fm",
+      "display-name": ",Federated States of Micronesia",
       "aliases": [
          "micronesia"
-      ],
-      "svg-link": "null",
-      "display-name": "Micronesia"
+      ]
    },
    {
+      "country-code": "md",
+      "display-name": "Republic of Moldova",
       "aliases": [
          "moldova"
-      ],
-      "svg-link": "null",
-      "display-name": "Moldova"
+      ]
    },
    {
+      "country-code": "mc",
+      "display-name": "Monaco",
       "aliases": [
          "monaco"
-      ],
-      "svg-link": "null",
-      "display-name": "Monaco"
+      ]
    },
    {
+      "country-code": "mn",
+      "display-name": "Mongolia",
       "aliases": [
          "mongolia"
-      ],
-      "svg-link": "null",
-      "display-name": "Mongolia"
+      ]
    },
    {
+      "country-code": "me",
+      "display-name": "Montenegro",
       "aliases": [
          "montenegro"
-      ],
-      "svg-link": "null",
-      "display-name": "Montenegro"
+      ]
    },
    {
+      "country-code": "ms",
+      "display-name": "Montserrat",
+      "aliases": [
+         "montserrat"
+      ]
+   },
+   {
+      "country-code": "ma",
+      "display-name": "Morocco",
       "aliases": [
          "morocco"
-      ],
-      "svg-link": "null",
-      "display-name": "Morocco"
+      ]
    },
    {
+      "country-code": "mz",
+      "display-name": "Mozambique",
       "aliases": [
          "mozambique"
-      ],
-      "svg-link": "null",
-      "display-name": "Mozambique"
+      ]
    },
    {
+      "country-code": "mm",
+      "display-name": "Myanmar",
       "aliases": [
          "myanmar"
-      ],
-      "svg-link": "null",
-      "display-name": "Myanmar"
+      ]
    },
    {
+      "country-code": "na",
+      "display-name": "Namibia",
       "aliases": [
          "namibia"
-      ],
-      "svg-link": "null",
-      "display-name": "Namibia"
+      ]
    },
    {
+      "country-code": "nr",
+      "display-name": "Nauru",
       "aliases": [
          "nauru"
-      ],
-      "svg-link": "null",
-      "display-name": "Nauru"
+      ]
    },
    {
+      "country-code": "np",
+      "display-name": "Nepal",
       "aliases": [
          "nepal"
-      ],
-      "svg-link": "null",
-      "display-name": "Nepal"
+      ]
    },
    {
+      "country-code": "nl",
+      "display-name": "Netherlands",
       "aliases": [
          "netherlands"
-      ],
-      "svg-link": "null",
-      "display-name": "Netherlands"
+      ]
    },
    {
+      "country-code": "nc",
+      "display-name": "New Caledonia",
+      "aliases": [
+         "new caledonia"
+      ]
+   },
+   {
+      "country-code": "nz",
+      "display-name": "New Zealand",
       "aliases": [
          "new zealand"
-      ],
-      "svg-link": "null",
-      "display-name": "New Zealand"
+      ]
    },
    {
+      "country-code": "ni",
+      "display-name": "Nicaragua",
       "aliases": [
          "nicaragua"
-      ],
-      "svg-link": "null",
-      "display-name": "Nicaragua"
+      ]
    },
    {
+      "country-code": "ne",
+      "display-name": "Niger",
       "aliases": [
          "niger"
-      ],
-      "svg-link": "null",
-      "display-name": "Niger"
+      ]
    },
    {
+      "country-code": "ng",
+      "display-name": "Nigeria",
       "aliases": [
          "nigeria"
-      ],
-      "svg-link": "null",
-      "display-name": "Nigeria"
+      ]
    },
    {
+      "country-code": "nu",
+      "display-name": "Niue",
+      "aliases": [
+         "niue"
+      ]
+   },
+   {
+      "country-code": "nf",
+      "display-name": "Norfolk Island",
+      "aliases": [
+         "norfolk island"
+      ]
+   },
+   {
+      "country-code": "mp",
+      "display-name": "Northern Mariana Islands",
+      "aliases": [
+         "northern mariana islands"
+      ]
+   },
+   {
+      "country-code": "no",
+      "display-name": "Norway",
       "aliases": [
          "norway"
-      ],
-      "svg-link": "null",
-      "display-name": "Norway"
+      ]
    },
    {
+      "country-code": "om",
+      "display-name": "Oman",
       "aliases": [
          "oman"
-      ],
-      "svg-link": "null",
-      "display-name": "Oman"
+      ]
    },
    {
+      "country-code": "pk",
+      "display-name": "Pakistan",
       "aliases": [
          "pakistan"
-      ],
-      "svg-link": "null",
-      "display-name": "Pakistan"
+      ]
    },
    {
+      "country-code": "pw",
+      "display-name": "Palau",
       "aliases": [
          "palau"
-      ],
-      "svg-link": "null",
-      "display-name": "Palau"
+      ]
    },
    {
+      "country-code": "ps",
+      "display-name": "State of Palestine",
+      "aliases": [
+         "palestine"
+      ]
+   },
+   {
+      "country-code": "pa",
+      "display-name": "Panama",
       "aliases": [
          "panama"
-      ],
-      "svg-link": "null",
-      "display-name": "Panama"
+      ]
    },
    {
+      "country-code": "pg",
+      "display-name": "Papua New Guinea",
       "aliases": [
          "papua new guinea"
-      ],
-      "svg-link": "null",
-      "display-name": "Papua New Guinea"
+      ]
    },
    {
+      "country-code": "py",
+      "display-name": "Paraguay",
       "aliases": [
          "paraguay"
-      ],
-      "svg-link": "null",
-      "display-name": "Paraguay"
+      ]
    },
    {
+      "country-code": "pe",
+      "display-name": "Peru",
       "aliases": [
          "peru"
-      ],
-      "svg-link": "null",
-      "display-name": "Peru"
+      ]
    },
    {
+      "country-code": "ph",
+      "display-name": "Philippines",
       "aliases": [
          "philippines"
-      ],
-      "svg-link": "null",
-      "display-name": "Philippines"
+      ]
    },
    {
+      "country-code": "pn",
+      "display-name": "Pitcairn",
+      "aliases": [
+         "pitcairn"
+      ]
+   },
+   {
+      "country-code": "pl",
+      "display-name": "Poland",
       "aliases": [
          "poland"
-      ],
-      "svg-link": "null",
-      "display-name": "Poland"
+      ]
    },
    {
+      "country-code": "pt",
+      "display-name": "Portugal",
       "aliases": [
          "portugal"
-      ],
-      "svg-link": "null",
-      "display-name": "Portugal"
+      ]
    },
    {
+      "country-code": "pr",
+      "display-name": "Puerto Rico",
+      "aliases": [
+         "puerto rico"
+      ]
+   },
+   {
+      "country-code": "qa",
+      "display-name": "Qatar",
       "aliases": [
          "qatar"
-      ],
-      "svg-link": "null",
-      "display-name": "Qatar"
+      ]
    },
    {
+      "country-code": "ro",
+      "display-name": "Romania",
       "aliases": [
          "romania"
-      ],
-      "svg-link": "null",
-      "display-name": "Romania"
+      ]
    },
    {
+      "country-code": "ru",
+      "display-name": "Russian Federation",
       "aliases": [
-         "russian federation"
-      ],
-      "svg-link": "null",
-      "display-name": "Russian Federation"
+         "russian federation",
+         "russia"
+      ]
    },
    {
+      "country-code": "rw",
+      "display-name": "Rwanda",
       "aliases": [
          "rwanda"
-      ],
-      "svg-link": "null",
-      "display-name": "Rwanda"
+      ]
    },
    {
+      "country-code": "re",
+      "display-name": "R\u00e9union",
       "aliases": [
-         "saint kitts and nevis"
-      ],
-      "svg-link": "null",
-      "display-name": "Saint Kitts and Nevis"
+         "r\u00e9union",
+         " réunion "
+      ]
    },
    {
+     "country-code": "gb-sct",
+     "display-name": "Scotland",
+     "aliases": [
+       "scotland"
+     ]
+   },
+   {
+      "country-code": "bl",
+      "display-name": "Saint Barth\u00e9lemy",
+      "aliases": [
+         "saint barth\u00e9lemy",
+         "saint barthélemy",
+         "saint bathelemy"
+      ]
+   },
+   {
+      "country-code": "sh",
+      "display-name": "Saint Helena, Ascension and Tristan da Cunha",
+      "aliases": [
+         "saint helena, ascension and tristan da cunha",
+         "saint helena"
+
+      ]
+   },
+   {
+      "country-code": "kn",
+      "display-name": "Saint Kitts and Nevis",
+      "aliases": [
+         "saint kitts and nevis",
+         "saint kitts",
+         "nevis"
+      ]
+   },
+   {
+      "country-code": "lc",
+      "display-name": "Saint Lucia",
       "aliases": [
          "saint lucia"
-      ],
-      "svg-link": "null",
-      "display-name": "Saint Lucia"
+      ]
    },
    {
+      "country-code": "mf",
+      "display-name": "Saint Martin (French part)",
       "aliases": [
-         "saint vincent & the grenadines"
-      ],
-      "svg-link": "null",
-      "display-name": "Saint Vincent & the Grenadines"
+         "saint martin"
+      ]
    },
    {
+      "country-code": "pm",
+      "display-name": "Saint Pierre and Miquelon",
+      "aliases": [
+         "saint pierre and miquelon",
+         "miquelon",
+         "saint pierre"
+      ]
+   },
+   {
+      "country-code": "vc",
+      "display-name": "Saint Vincent and the Grenadines",
+      "aliases": [
+         "saint vincent and the grenadines",
+         "saint vincent",
+         "the grenadines"
+      ]
+   },
+   {
+      "country-code": "ws",
+      "display-name": "Samoa",
       "aliases": [
          "samoa"
-      ],
-      "svg-link": "null",
-      "display-name": "Samoa"
+      ]
    },
    {
+      "country-code": "sm",
+      "display-name": "San Marino",
       "aliases": [
          "san marino"
-      ],
-      "svg-link": "null",
-      "display-name": "San Marino"
+      ]
    },
    {
+      "country-code": "st",
+      "display-name": "Sao Tome and Principe",
       "aliases": [
-         "sao tome & principe"
-      ],
-      "svg-link": "null",
-      "display-name": "Sao Tome & Principe"
+         "sao tome and principe",
+         "sao tome",
+         "principe"
+      ]
    },
    {
+      "country-code": "sa",
+      "display-name": "Saudi Arabia",
       "aliases": [
          "saudi arabia"
-      ],
-      "svg-link": "null",
-      "display-name": "Saudi Arabia"
+      ]
    },
    {
+      "country-code": "sn",
+      "display-name": "Senegal",
       "aliases": [
          "senegal"
-      ],
-      "svg-link": "null",
-      "display-name": "Senegal"
+      ]
    },
    {
+      "country-code": "rs",
+      "display-name": "Serbia",
       "aliases": [
          "serbia"
-      ],
-      "svg-link": "null",
-      "display-name": "Serbia"
+      ]
    },
    {
+      "country-code": "sc",
+      "display-name": "Seychelles",
       "aliases": [
          "seychelles"
-      ],
-      "svg-link": "null",
-      "display-name": "Seychelles"
+      ]
    },
    {
+      "country-code": "sl",
+      "display-name": "Sierra Leone",
       "aliases": [
          "sierra leone"
-      ],
-      "svg-link": "null",
-      "display-name": "Sierra Leone"
+      ]
    },
    {
+      "country-code": "sg",
+      "display-name": "Singapore",
       "aliases": [
          "singapore"
-      ],
-      "svg-link": "null",
-      "display-name": "Singapore"
+      ]
    },
    {
+      "country-code": "sx",
+      "display-name": "Sint Maarten (Dutch part)",
+      "aliases": [
+         "sint maarten"
+      ]
+   },
+   {
+      "country-code": "sk",
+      "display-name": "Slovakia",
       "aliases": [
          "slovakia"
-      ],
-      "svg-link": "null",
-      "display-name": "Slovakia"
+      ]
    },
    {
+      "country-code": "si",
+      "display-name": "Slovenia",
       "aliases": [
          "slovenia"
-      ],
-      "svg-link": "null",
-      "display-name": "Slovenia"
+      ]
    },
    {
+      "country-code": "sb",
+      "display-name": "Solomon Islands",
       "aliases": [
          "solomon islands"
-      ],
-      "svg-link": "null",
-      "display-name": "Solomon Islands"
+      ]
    },
    {
+      "country-code": "so",
+      "display-name": "Somalia",
       "aliases": [
          "somalia"
-      ],
-      "svg-link": "null",
-      "display-name": "Somalia"
+      ]
    },
    {
+      "country-code": "za",
+      "display-name": "South Africa",
       "aliases": [
          "south africa"
-      ],
-      "svg-link": "null",
-      "display-name": "South Africa"
+      ]
    },
    {
+      "country-code": "gs",
+      "display-name": "South Georgia and the South Sandwich Islands",
+      "aliases": [
+         "south georgia",
+         "south sandwich islands"
+      ]
+   },
+   {
+      "country-code": "ss",
+      "display-name": "South Sudan",
       "aliases": [
          "south sudan"
-      ],
-      "svg-link": "null",
-      "display-name": "South Sudan"
+      ]
    },
    {
+      "country-code": "es",
+      "display-name": "Spain",
       "aliases": [
          "spain"
-      ],
-      "svg-link": "null",
-      "display-name": "Spain"
+      ]
    },
    {
+      "country-code": "lk",
+      "display-name": "Sri Lanka",
       "aliases": [
          "sri lanka"
-      ],
-      "svg-link": "null",
-      "display-name": "Sri Lanka"
+      ]
    },
    {
+      "country-code": "sd",
+      "display-name": "Sudan",
       "aliases": [
          "sudan"
-      ],
-      "svg-link": "null",
-      "display-name": "Sudan"
+      ]
    },
    {
+      "country-code": "sr",
+      "display-name": "Suriname",
       "aliases": [
          "suriname"
-      ],
-      "svg-link": "null",
-      "display-name": "Suriname"
+      ]
    },
    {
+      "country-code": "sj",
+      "display-name": "Svalbard and Jan Mayen",
+      "aliases": [
+         "jan mayen",
+         "svalbard"
+      ]
+   },
+   {
+      "country-code": "sz",
+      "display-name": "Swaziland",
       "aliases": [
          "swaziland"
-      ],
-      "svg-link": "null",
-      "display-name": "Swaziland"
+      ]
    },
    {
+      "country-code": "se",
+      "display-name": "Sweden",
       "aliases": [
          "sweden"
-      ],
-      "svg-link": "null",
-      "display-name": "Sweden"
+      ]
    },
    {
+      "country-code": "ch",
+      "display-name": "Switzerland",
       "aliases": [
          "switzerland"
-      ],
-      "svg-link": "null",
-      "display-name": "Switzerland"
+      ]
    },
    {
+      "country-code": "sy",
+      "display-name": "Syrian Arab Republic",
       "aliases": [
+         "syrian arab republic",
          "syria"
-      ],
-      "svg-link": "null",
-      "display-name": "Syria"
+      ]
    },
    {
+      "country-code": "tw",
+      "display-name": "Taiwan, Province of China",
       "aliases": [
+         "taiwan, province of china",
          "taiwan"
-      ],
-      "svg-link": "null",
-      "display-name": "Taiwan"
+      ]
    },
    {
+      "country-code": "tj",
+      "display-name": "Tajikistan",
       "aliases": [
          "tajikistan"
-      ],
-      "svg-link": "null",
-      "display-name": "Tajikistan"
+      ]
    },
    {
+      "country-code": "tz",
+      "display-name": "United Republic of Tanzania",
       "aliases": [
          "tanzania"
-      ],
-      "svg-link": "null",
-      "display-name": "Tanzania"
+      ]
    },
    {
+      "country-code": "th",
+      "display-name": "Thailand",
       "aliases": [
          "thailand"
-      ],
-      "svg-link": "null",
-      "display-name": "Thailand"
+      ]
    },
    {
+      "country-code": "tl",
+      "display-name": "Timor-Leste",
+      "aliases": [
+         "timor-leste"
+      ]
+   },
+   {
+      "country-code": "tg",
+      "display-name": "Togo",
       "aliases": [
          "togo"
-      ],
-      "svg-link": "null",
-      "display-name": "Togo"
+      ]
    },
    {
+      "country-code": "tk",
+      "display-name": "Tokelau",
+      "aliases": [
+         "tokelau"
+      ]
+   },
+   {
+      "country-code": "to",
+      "display-name": "Tonga",
       "aliases": [
          "tonga"
-      ],
-      "svg-link": "null",
-      "display-name": "Tonga"
+      ]
    },
    {
+      "country-code": "tt",
+      "display-name": "Trinidad and Tobago",
       "aliases": [
-         "trinidad & tobago"
-      ],
-      "svg-link": "null",
-      "display-name": "Trinidad & Tobago"
+         "trinidad",
+         "tobago"
+      ]
    },
    {
+      "country-code": "tn",
+      "display-name": "Tunisia",
       "aliases": [
          "tunisia"
-      ],
-      "svg-link": "null",
-      "display-name": "Tunisia"
+      ]
    },
    {
+      "country-code": "tr",
+      "display-name": "Turkey",
       "aliases": [
          "turkey"
-      ],
-      "svg-link": "null",
-      "display-name": "Turkey"
+      ]
    },
    {
+      "country-code": "tm",
+      "display-name": "Turkmenistan",
       "aliases": [
          "turkmenistan"
-      ],
-      "svg-link": "null",
-      "display-name": "Turkmenistan"
+      ]
    },
    {
+      "country-code": "tc",
+      "display-name": "Turks and Caicos Islands",
+      "aliases": [
+         "caicos islands",
+         "turks islands"
+      ]
+   },
+   {
+      "country-code": "tv",
+      "display-name": "Tuvalu",
       "aliases": [
          "tuvalu"
-      ],
-      "svg-link": "null",
-      "display-name": "Tuvalu"
+      ]
    },
    {
+      "country-code": "ug",
+      "display-name": "Uganda",
       "aliases": [
          "uganda"
-      ],
-      "svg-link": "null",
-      "display-name": "Uganda"
+      ]
    },
    {
+      "country-code": "ua",
+      "display-name": "Ukraine",
       "aliases": [
          "ukraine"
-      ],
-      "svg-link": "null",
-      "display-name": "Ukraine"
+      ]
    },
    {
+      "country-code": "ae",
+      "display-name": "United Arab Emirates",
       "aliases": [
-         "united arab emirates"
-      ],
-      "svg-link": "null",
-      "display-name": "United Arab Emirates"
+         "united arab emirates",
+         " uae "
+      ]
    },
    {
+      "country-code": "us",
+      "display-name": "United States",
       "aliases": [
-         "united kingdom"
-      ],
-      "svg-link": "null",
-      "display-name": "United Kingdom"
+         "united states",
+         "america",
+         " usa ",
+         "unites states of america",
+         "murica"
+      ]
    },
    {
+      "country-code": "um",
+      "display-name": "United States Minor Outlying Islands",
       "aliases": [
-         "united states"
-      ],
-      "svg-link": "null",
-      "display-name": "United States"
+         "united states minor outlying islands"
+      ]
    },
    {
+      "country-code": "gb-eng",
+      "display-name": "England",
+      "aliases": [
+         "england"
+      ]
+   },
+   {
+      "country-code": "uy",
+      "display-name": "Uruguay",
       "aliases": [
          "uruguay"
-      ],
-      "svg-link": "null",
-      "display-name": "Uruguay"
+      ]
    },
    {
+      "country-code": "uz",
+      "display-name": "Uzbekistan",
       "aliases": [
          "uzbekistan"
-      ],
-      "svg-link": "null",
-      "display-name": "Uzbekistan"
+      ]
    },
    {
+      "country-code": "vu",
+      "display-name": "Vanuatu",
       "aliases": [
          "vanuatu"
-      ],
-      "svg-link": "null",
-      "display-name": "Vanuatu"
+      ]
    },
    {
+      "country-code": "ve",
+      "display-name": "Venezuela, Bolivarian Republic of",
       "aliases": [
-         "vatican city"
-      ],
-      "svg-link": "null",
-      "display-name": "Vatican City"
+         "venezuela, bolivarian republic of"
+      ]
    },
    {
+      "country-code": "vn",
+      "display-name": "Viet Nam",
       "aliases": [
-         "venezuela"
-      ],
-      "svg-link": "null",
-      "display-name": "Venezuela"
+         "viet nam"
+      ]
    },
    {
+      "country-code": "vg",
+      "display-name": "Virgin Islands, British",
       "aliases": [
-         "vietnam"
-      ],
-      "svg-link": "null",
-      "display-name": "Vietnam"
+         "virgin islands, british"
+      ]
    },
    {
+      "country-code": "vi",
+      "display-name": "Virgin Islands, U.S.",
+      "aliases": [
+         "virgin islands, u.s."
+      ]
+   },
+   {
+      "country-code": "wf",
+      "display-name": "Wallis and Futuna",
+      "aliases": [
+         "futuna",
+         "wallis"
+      ]
+   },
+   {
+      "country-code": "eh",
+      "display-name": "Western Sahara",
+      "aliases": [
+         "western sahara"
+      ]
+   },
+   {
+      "country-code": "ye",
+      "display-name": "Yemen",
       "aliases": [
          "yemen"
-      ],
-      "svg-link": "null",
-      "display-name": "Yemen"
+      ]
    },
    {
+      "country-code": "zm",
+      "display-name": "Zambia",
       "aliases": [
          "zambia"
-      ],
-      "svg-link": "null",
-      "display-name": "Zambia"
+      ]
    },
    {
-      "svg-link": "null",
+      "country-code": "zw",
       "display-name": "Zimbabwe",
       "aliases": [
          "zimbabwe"
+      ]
+   },
+   {
+      "country-code": "ax",
+      "display-name": "\u00c5land Islands",
+      "aliases": [
+         "\u00e5land islands",
+         "Åland island",
+         "aland islands"
       ]
    }
 ]
