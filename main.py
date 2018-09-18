@@ -1,28 +1,37 @@
 #! /usr/bin/python3
 
-import praw
+import praw #https://praw.readthedocs.io/en/latest/
 import time
 import sched
-from fuzzywuzzy import fuzz
+from fuzzywuzzy import fuzz #https://github.com/seatgeek/fuzzywuzzy
+from googlesearch import search #https://pypi.org/project/google/#description
 import json
 import re
 
+#Flags Credit:
+#Country flag: http://hjnilsson.github.io/country-flags/
+#State flag:
+#City and world flag: https://www.crwflags.com/fotw/flags/
+
+#Toolset Credit:
+#Atom: https://atom.io/
+#Python tools for atom: https://atom.io/packages/python-tools
+
 #Globals
-VERSION = 1.3
+VERSION = 1.4
 POST_DELAY = 10 #seconds
-TIME_FREEZE = 1537115400
+TIME_FREEZE = 1537115400 #This is a UTC time. I don't want to handle posts that happened pre-my bot
 COUNTRY_MATCH_THRESHOLD = 80
 
-#Credit: http://hjnilsson.github.io/country-flags/
 
 #Setup
-LOGIN_LOCATION = "/home/liam/application_data/atom/reddit/VexillologyBot/login.txt"
-LOCATION_LOCATION = "/home/liam/application_data/atom/reddit/VexillologyBot/locations.json"
-BLACKLIST_LOCATION = "/home/liam/application_data/atom/reddit/VexillologyBot/blacklist.txt"
+LOGIN = "/home/liam/application_data/atom/reddit/VexillologyBot/login.txt"
+LOCATIONS = "/home/liam/application_data/atom/reddit/VexillologyBot/locations.json"
+BLACKLIST = "/home/liam/application_data/atom/reddit/VexillologyBot/blacklist.txt"
 SUBREDDIT = "vexillology"
 
 
-login_file = open(LOGIN_LOCATION, "r")
+login_file = open(LOGIN, "r")
 
 CLIENT_ID = login_file.readline().strip()
 CLIENT_SECRET = login_file.readline().strip()
@@ -33,7 +42,7 @@ USER_AGENT = "SirLich"
 #This variable holds the instance of PRAW that will talk to the reddit API
 reddit = praw.Reddit(client_id=CLIENT_ID,client_secret=CLIENT_SECRET,password=PASSWORD,user_agent=USER_AGENT,username=USERNAME,)
 
-#Setup some subreddits
+#Setup the subreedit we will use
 vexillology = reddit.subreddit(SUBREDDIT)
 
 #Temp class used for things
@@ -47,7 +56,7 @@ class LinkObject:
 
 #This function determines whether a comment should be left on a post
 def blacklisted(post):
-    f = open(BLACKLIST_LOCATION,"r")
+    f = open(BLACKLIST,"r")
     for line in f:
         if post.id in line:
             f.close()
@@ -57,7 +66,7 @@ def blacklisted(post):
 
 #Blacklist a post to stop further comments being made on it
 def blacklist(post):
-    f = open(BLACKLIST_LOCATION,"a")
+    f = open(BLACKLIST,"a")
     f.write(post.id + " " + post.title)
     f.write("\n")
     f.close()
@@ -77,7 +86,7 @@ def handle_post(post):
     regex = re.compile('[^a-zA-Z ]')
     title = regex.sub('',title)
     title = title.lower()
-    with open(LOCATION_LOCATION, "r+") as outfile:
+    with open(LOCATIONS, "r+") as outfile:
         data = json.load(outfile)
         o = set()
         for object in data:
