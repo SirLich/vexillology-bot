@@ -9,7 +9,7 @@ import re
 
 #Globals
 VERSION = 1.3
-POST_DELAY = 15 #seconds
+POST_DELAY = 10 #seconds
 TIME_FREEZE = 1537115400
 COUNTRY_MATCH_THRESHOLD = 80
 
@@ -62,6 +62,13 @@ def blacklist(post):
     f.write("\n")
     f.close()
 
+#Handle comments
+def handle_comment(comment):
+    body = comment.body
+    if('u/VexillologyBot' in comment):
+        comment.reply("body")
+
+
 #Handle the post!
 def handle_post(post):
     title = post.title
@@ -75,11 +82,12 @@ def handle_post(post):
         o = set()
         for object in data:
             for alias in object.get("aliases"):
+                alias = " " + alias + " "
                 if(fuzz.partial_ratio(alias,title) > COUNTRY_MATCH_THRESHOLD):
                     print("I found a country!: " + alias)
                     o.add(LinkObject(object.get("display-name"),object.get("direct-link"),object.get("state-code"),object.get("country-code")))
                     break
-        comment = "I did my best to find the following flags:  \n"
+        comment = "I did my best to find the following flags:\n\n"
         for object in o:
             display_name = object.display_name
             direct_link = object.direct_link
@@ -89,17 +97,17 @@ def handle_post(post):
             if(direct_link):
                 photo_url = direct_link
             elif(state_code):
-                print("That shoulden't exist!")
+                photo_url = "http://usa.fmcdn.net/data/flags/w580/" + state_code + ".png"
             elif(country_code):
                 photo_url = "https://cdn.rawgit.com/hjnilsson/country-flags/master/svg/" + country_code + ".svg"
 
-            new_link = "[%s](%s)  \n"%(display_name,photo_url)
+            new_link = "[%s](%s)\n\n"%(display_name,photo_url)
             comment+=new_link
         if(len(o) > 0):
-            comment += "^(This is a limited-time test. Message SirLich to make this stop.)"
+            comment += "Learn more: [GitHub](https://github.com/SirLich/vexillology-bot)"
             print(comment)
             print("")
-            #comment = post.reply(comment)
+            comment = post.reply(comment)
     blacklist(post)
     time.sleep(POST_DELAY)
 
@@ -112,5 +120,6 @@ def main():
             for post in vexillology.stream.submissions():
                 if(not blacklisted(post) and post.created_utc > TIME_FREEZE):
                     handle_post(post)
+
         except Exception as e: print(e)
 main()
