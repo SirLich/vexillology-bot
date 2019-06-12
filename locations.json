@@ -1,190 +1,190 @@
 [
    {
-      "country-code": "af",
       "display-name": "Afghanistan",
+      "country-code": "af",
       "aliases": [
          "afghanistan"
       ]
    },
    {
-      "country-code": "al",
       "display-name": "Albania",
+      "country-code": "al",
       "aliases": [
          "albania"
       ]
    },
    {
-      "country-code": "dz",
       "display-name": "Algeria",
+      "country-code": "dz",
       "aliases": [
          "algeria"
       ]
    },
    {
-      "country-code": "as",
       "display-name": "American Samoa",
+      "country-code": "as",
       "aliases": [
          "american samoa"
       ]
    },
    {
-      "country-code": "ad",
       "display-name": "Andorra",
+      "country-code": "ad",
       "aliases": [
          "andorra"
       ]
    },
    {
-      "country-code": "ao",
       "display-name": "Angola",
+      "country-code": "ao",
       "aliases": [
          "angola"
       ]
    },
    {
-      "country-code": "ai",
       "display-name": "Anguilla",
+      "country-code": "ai",
       "aliases": [
          "anguilla"
       ]
    },
    {
-      "country-code": "aq",
       "display-name": "Antarctica",
+      "country-code": "aq",
       "aliases": [
          "antarctica"
       ]
    },
    {
-      "country-code": "ag",
       "display-name": "Antigua and Barbuda",
+      "country-code": "ag",
       "aliases": [
          "antigua",
          "barbuda"
       ]
    },
    {
-      "country-code": "ar",
       "display-name": "Argentina",
+      "country-code": "ar",
       "aliases": [
          "argentina"
       ]
    },
    {
-      "country-code": "am",
       "display-name": "Armenia",
+      "country-code": "am",
       "aliases": [
          "armenia"
       ]
    },
    {
-      "country-code": "aw",
       "display-name": "Aruba",
+      "country-code": "aw",
       "aliases": [
          "aruba"
       ]
    },
    {
-      "country-code": "au",
       "display-name": "Australia",
+      "country-code": "au",
       "aliases": [
          "australia"
       ]
    },
    {
-      "country-code": "at",
       "display-name": "Austria",
+      "country-code": "at",
       "aliases": [
          "austria"
       ]
    },
    {
-      "country-code": "az",
       "display-name": "Azerbaijan",
+      "country-code": "az",
       "aliases": [
          "azerbaijan"
       ]
    },
    {
-      "country-code": "bs",
       "display-name": "Bahamas",
+      "country-code": "bs",
       "aliases": [
          "bahamas"
       ]
    },
    {
-      "country-code": "bh",
       "display-name": "Bahrain",
+      "country-code": "bh",
       "aliases": [
          "bahrain"
       ]
    },
    {
-      "country-code": "bd",
       "display-name": "Bangladesh",
+      "country-code": "bd",
       "aliases": [
          "bangladesh"
       ]
    },
    {
-      "country-code": "bb",
       "display-name": "Barbados",
+      "country-code": "bb",
       "aliases": [
          "barbados"
       ]
    },
    {
-      "country-code": "by",
       "display-name": "Belarus",
+      "country-code": "by",
       "aliases": [
          "belarus"
       ]
    },
    {
-      "country-code": "be",
       "display-name": "Belgium",
+      "country-code": "be",
       "aliases": [
          "belgium"
       ]
    },
    {
-      "country-code": "bz",
       "display-name": "Belize",
+      "country-code": "bz",
       "aliases": [
          "belize"
       ]
    },
    {
-      "country-code": "bj",
       "display-name": "Benin",
+      "country-code": "bj",
       "aliases": [
          "benin"
       ]
    },
    {
-      "country-code": "bm",
       "display-name": "Bermuda",
+      "country-code": "bm",
       "aliases": [
          "bermuda"
       ]
    },
    {
-      "country-code": "bt",
       "display-name": "Bhutan",
+      "country-code": "bt",
       "aliases": [
          "bhutan"
       ]
    },
    {
-      "country-code": "bo",
       "display-name": "Plurinational State of Bolivia",
+      "country-code": "bo",
       "aliases": [
          "bolivia"
       ]
    },
    {
-      "country-code": "bq",
       "display-name": "Caribbean Netherlands",
+      "country-code": "bq",
       "aliases": [
          "bonaire",
          "sint eustatius",
@@ -193,230 +193,230 @@
       ]
    },
    {
-      "country-code": "ba",
       "display-name": "Bosnia and Herzegovina",
+      "country-code": "ba",
       "aliases": [
          "bosnia",
          "herzegovina"
       ]
    },
    {
-      "country-code": "bw",
       "display-name": "Botswana",
+      "country-code": "bw",
       "aliases": [
          "botswana"
       ]
    },
    {
-      "country-code": "bv",
       "display-name": "Bouvet Island",
+      "country-code": "bv",
       "aliases": [
          "bouvet"
       ]
    },
    {
-      "country-code": "br",
       "display-name": "Brazil",
+      "country-code": "br",
       "aliases": [
          "brazil"
       ]
    },
    {
-      "country-code": "io",
       "display-name": "British Indian Ocean Territory",
+      "country-code": "io",
       "aliases": [
          "british indian ocean territory"
       ]
    },
    {
-      "country-code": "bn",
       "display-name": "Brunei Darussalam",
+      "country-code": "bn",
       "aliases": [
          "brunei darussalam"
       ]
    },
    {
-      "country-code": "bg",
       "display-name": "Bulgaria",
+      "country-code": "bg",
       "aliases": [
          "bulgaria"
       ]
    },
    {
-      "country-code": "bf",
       "display-name": "Burkina Faso",
+      "country-code": "bf",
       "aliases": [
          "burkina faso"
       ]
    },
    {
-      "country-code": "bi",
       "display-name": "Burundi",
+      "country-code": "bi",
       "aliases": [
          "burundi"
       ]
    },
    {
-      "country-code": "kh",
       "display-name": "Cambodia",
+      "country-code": "kh",
       "aliases": [
          "cambodia"
       ]
    },
    {
-      "country-code": "cm",
       "display-name": "Cameroon",
+      "country-code": "cm",
       "aliases": [
          "cameroon"
       ]
    },
    {
-      "country-code": "ca",
       "display-name": "Canada",
+      "country-code": "ca",
       "aliases": [
          "canada"
       ]
    },
    {
-      "country-code": "cv",
       "display-name": "Cape Verde",
+      "country-code": "cv",
       "aliases": [
          "cape verde"
       ]
    },
    {
-      "country-code": "ky",
       "display-name": "Cayman Islands",
+      "country-code": "ky",
       "aliases": [
          "cayman islands"
       ]
    },
    {
-      "country-code": "cf",
       "display-name": "Central African Republic",
+      "country-code": "cf",
       "aliases": [
          "central african republic"
       ]
    },
    {
-      "country-code": "td",
       "display-name": "Chad",
+      "country-code": "td",
       "aliases": [
          "chad"
       ]
    },
    {
-      "country-code": "cl",
       "display-name": "Chile",
+      "country-code": "cl",
       "aliases": [
          "chile"
       ]
    },
    {
-      "country-code": "cn",
       "display-name": "China",
+      "country-code": "cn",
       "aliases": [
          "china",
          "chinese"
       ]
    },
    {
-      "country-code": "cx",
       "display-name": "Christmas Island",
+      "country-code": "cx",
       "aliases": [
          "christmas island"
       ]
    },
    {
-      "country-code": "cc",
       "display-name": "Cocos (Keeling) Islands",
+      "country-code": "cc",
       "aliases": [
          "cocos",
          "keeling"
       ]
    },
    {
-      "country-code": "co",
       "display-name": "Colombia",
+      "country-code": "co",
       "aliases": [
          "colombia"
       ]
    },
    {
-      "country-code": "km",
       "display-name": "Comoros",
+      "country-code": "km",
       "aliases": [
          "comoros"
       ]
    },
    {
-      "country-code": "cg",
       "display-name": "Congo",
+      "country-code": "cg",
       "aliases": [
          "congo"
       ]
    },
    {
-      "country-code": "cd",
       "display-name": "the Democratic Republic of the Congo",
+      "country-code": "cd",
       "aliases": [
          "congo"
       ]
    },
    {
-      "country-code": "ck",
       "display-name": "Cook Islands",
+      "country-code": "ck",
       "aliases": [
          "cook islands"
       ]
    },
    {
-      "country-code": "cr",
       "display-name": "Costa Rica",
+      "country-code": "cr",
       "aliases": [
          "costa rica"
       ]
    },
    {
-      "country-code": "hr",
       "display-name": "Croatia",
+      "country-code": "hr",
       "aliases": [
          "croatia"
       ]
    },
    {
-      "country-code": "cu",
       "display-name": "Cuba",
+      "country-code": "cu",
       "aliases": [
          "cuba"
       ]
    },
    {
-      "country-code": "cw",
       "display-name": "Cura\u00e7ao",
+      "country-code": "cw",
       "aliases": [
          "cura\u00e7ao",
-         "curaçao",
+         "cura\u00e7ao",
          "curacao"
       ]
    },
    {
-      "country-code": "cy",
       "display-name": "Cyprus",
+      "country-code": "cy",
       "aliases": [
          "cyprus"
       ]
    },
    {
-      "country-code": "cz",
       "display-name": "Czech Republic",
+      "country-code": "cz",
       "aliases": [
          "czech republic"
       ]
    },
    {
-      "country-code": "ci",
       "display-name": "\"C\u00f4te dIvoire\"",
+      "country-code": "ci",
       "aliases": [
          "\"c\u00f4te divoire\"",
          "cote d'ivoire",
@@ -424,298 +424,299 @@
       ]
    },
    {
-      "country-code": "dk",
       "display-name": "Denmark",
+      "country-code": "dk",
       "aliases": [
          "denmark"
       ]
    },
    {
-      "country-code": "dj",
       "display-name": "Djibouti",
+      "country-code": "dj",
       "aliases": [
          "djibouti"
       ]
    },
    {
-      "country-code": "dm",
       "display-name": "Dominica",
+      "country-code": "dm",
       "aliases": [
          "dominica"
       ]
    },
    {
-      "country-code": "do",
       "display-name": "Dominican Republic",
+      "country-code": "do",
       "aliases": [
          "dominican republic"
       ]
    },
    {
-      "country-code": "ec",
       "display-name": "Ecuador",
+      "country-code": "ec",
       "aliases": [
          "ecuador"
       ]
    },
    {
-      "country-code": "eg",
       "display-name": "Egypt",
+      "country-code": "eg",
       "aliases": [
          "egypt"
       ]
    },
    {
-      "country-code": "sv",
       "display-name": "El Salvador",
+      "country-code": "sv",
       "aliases": [
          "el salvador"
       ]
    },
    {
-      "country-code": "gq",
       "display-name": "Equatorial Guinea",
+      "country-code": "gq",
       "aliases": [
          "equatorial guinea"
       ]
    },
    {
-      "country-code": "er",
       "display-name": "Eritrea",
+      "country-code": "er",
       "aliases": [
          "eritrea"
       ]
    },
    {
-      "country-code": "ee",
       "display-name": "Estonia",
+      "country-code": "ee",
       "aliases": [
          "estonia"
       ]
    },
    {
-      "country-code": "et",
       "display-name": "Ethiopia",
+      "country-code": "et",
       "aliases": [
          "ethiopia"
       ]
    },
    {
-      "country-code": "fk",
       "display-name": "Falkland Islands (Malvinas)",
+      "country-code": "fk",
       "aliases": [
          "falkland islands",
          "malvinas"
       ]
    },
    {
-      "country-code": "fo",
       "display-name": "Faroe Islands",
+      "country-code": "fo",
       "aliases": [
          "faroe islands"
       ]
    },
    {
-      "country-code": "fj",
       "display-name": "Fiji",
+      "country-code": "fj",
       "aliases": [
          "fiji"
       ]
    },
    {
-      "country-code": "fi",
       "display-name": "Finland",
+      "country-code": "fi",
       "aliases": [
          "finland"
       ]
    },
    {
-      "country-code": "fr",
       "display-name": "France",
+      "country-code": "fr",
       "aliases": [
          "france"
       ]
    },
    {
-      "country-code": "gf",
       "display-name": "French Guiana",
+      "country-code": "gf",
       "aliases": [
          "french guiana"
       ]
    },
    {
-      "country-code": "pf",
       "display-name": "French Polynesia",
+      "country-code": "pf",
       "aliases": [
          "french polynesia"
       ]
    },
    {
-      "country-code": "tf",
       "display-name": "French Southern Territories",
+      "country-code": "tf",
       "aliases": [
          "french southern territories"
       ]
    },
    {
-      "country-code": "ga",
       "display-name": "Gabon",
+      "country-code": "ga",
       "aliases": [
          "gabon"
       ]
    },
    {
-      "country-code": "gm",
       "display-name": "Gambia",
+      "country-code": "gm",
       "aliases": [
          "gambia"
       ]
    },
    {
-      "country-code": "ge",
       "display-name": "Georgia",
+      "country-code": "ge",
       "aliases": [
          "georgia"
       ]
    },
    {
-      "country-code": "de",
       "display-name": "Germany",
+      "country-code": "de",
       "aliases": [
          "germany"
       ]
    },
    {
-      "country-code": "gh",
       "display-name": "Ghana",
+      "country-code": "gh",
       "aliases": [
          "ghana"
       ]
    },
    {
-      "country-code": "gi",
       "display-name": "Gibraltar",
+      "country-code": "gi",
       "aliases": [
          "gibraltar"
       ]
    },
    {
-      "country-code": "gr",
       "display-name": "Greece",
+      "country-code": "gr",
       "aliases": [
          "greece"
       ]
    },
    {
-      "country-code": "gl",
       "display-name": "Greenland",
+      "country-code": "gl",
       "aliases": [
          "greenland"
       ]
    },
    {
-      "country-code": "gd",
       "display-name": "Grenada",
+      "country-code": "gd",
       "aliases": [
          "grenada"
       ]
    },
    {
-      "country-code": "gp",
       "display-name": "Guadeloupe",
+      "country-code": "gp",
       "aliases": [
          "guadeloupe"
       ]
    },
    {
-      "country-code": "gu",
       "display-name": "Guam",
+      "country-code": "gu",
       "aliases": [
          "guam"
       ]
    },
    {
-      "country-code": "gt",
       "display-name": "Guatemala",
+      "country-code": "gt",
       "aliases": [
          "guatemala"
       ]
    },
    {
-      "country-code": "gg",
       "display-name": "Guernsey",
+      "country-code": "gg",
       "aliases": [
          "guernsey"
       ]
    },
    {
-      "country-code": "gn",
       "display-name": "Guinea",
+      "country-code": "gn",
       "aliases": [
          "guinea"
       ]
    },
    {
-      "country-code": "gw",
       "display-name": "Guinea-Bissau",
+      "country-code": "gw",
       "aliases": [
          "guinea-bissau"
       ]
    },
    {
-      "country-code": "gy",
       "display-name": "Guyana",
+      "country-code": "gy",
       "aliases": [
          "guyana"
       ]
    },
    {
-      "country-code": "ht",
       "display-name": "Haiti",
+      "country-code": "ht",
       "aliases": [
          "haiti"
       ]
    },
    {
-      "country-code": "hm",
       "display-name": "Heard Island and McDonald Islands",
+      "country-code": "hm",
       "aliases": [
          "heard island",
          "mcdonald islands"
       ]
    },
    {
-      "country-code": "va",
       "display-name": "Holy See (Vatican City State)",
+      "country-code": "va",
       "aliases": [
          "holy see",
          "vatican city"
       ]
    },
    {
-      "country-code": "hn",
       "display-name": "Honduras",
+      "country-code": "hn",
       "aliases": [
          "honduras"
       ]
    },
    {
-      "country-code": "hk",
       "display-name": "Hong Kong",
+      "country-code": "hk",
       "aliases": [
          "hong kong"
       ]
    },
    {
-      "country-code": "hu",
       "display-name": "Hungary",
+      "country-code": "hu",
       "aliases": [
-         "hungary"
+         "hungary",
+         "Hungarian"
       ]
    },
    {
-      "country-code": "gb",
       "display-name": "United Kingdom",
+      "country-code": "gb",
       "aliases": [
          " uk ",
          "united kingdom",
@@ -723,619 +724,624 @@
       ]
    },
    {
-      "country-code": "is",
       "display-name": "Iceland",
+      "country-code": "is",
       "aliases": [
          "iceland"
       ]
    },
    {
-      "country-code": "in",
       "display-name": "India",
+      "country-code": "in",
       "aliases": [
          "india"
       ]
    },
    {
-      "country-code": "id",
       "display-name": "Indonesia",
+      "country-code": "id",
       "aliases": [
          "indonesia"
       ]
    },
    {
-      "country-code": "ir",
       "display-name": "Islamic Republic of Iran",
+      "country-code": "ir",
       "aliases": [
          "iran"
       ]
    },
    {
-      "country-code": "iq",
       "display-name": "Iraq",
+      "country-code": "iq",
       "aliases": [
          "iraq"
       ]
    },
    {
-      "country-code": "ie",
       "display-name": "Ireland",
+      "country-code": "ie",
       "aliases": [
          "ireland"
       ]
    },
    {
-      "country-code": "im",
       "display-name": "Isle of Man",
+      "country-code": "im",
       "aliases": [
          "isle of man"
       ]
    },
    {
-      "country-code": "il",
       "display-name": "Israel",
+      "country-code": "il",
       "aliases": [
          "israel"
       ]
    },
    {
-      "country-code": "it",
       "display-name": "Italy",
+      "country-code": "it",
       "aliases": [
          "italy"
       ]
    },
    {
-      "country-code": "jm",
       "display-name": "Jamaica",
+      "country-code": "jm",
       "aliases": [
          "jamaica"
       ]
    },
    {
-      "country-code": "jp",
       "display-name": "Japan",
+      "country-code": "jp",
       "aliases": [
          "japan"
       ]
    },
    {
-      "country-code": "je",
       "display-name": "Jersey",
+      "country-code": "je",
       "aliases": [
          "jersey"
       ]
    },
    {
-      "country-code": "jo",
       "display-name": "Jordan",
+      "country-code": "jo",
       "aliases": [
          "jordan"
       ]
    },
    {
-      "country-code": "kz",
       "display-name": "Kazakhstan",
+      "country-code": "kz",
       "aliases": [
          "kazakhstan"
       ]
    },
    {
-      "country-code": "ke",
       "display-name": "Kenya",
+      "country-code": "ke",
       "aliases": [
          "kenya"
       ]
    },
    {
-      "country-code": "ki",
       "display-name": "Kiribati",
+      "country-code": "ki",
       "aliases": [
          "kiribati"
       ]
    },
    {
-      "country-code": "kp",
       "display-name": "North Korea",
+      "country-code": "kp",
       "aliases": [
          "democratic peoples republic of korea",
          "north korea"
       ]
    },
    {
-      "country-code": "kr",
       "display-name": "South Korea",
+      "country-code": "kr",
       "aliases": [
-         "republic of korea",
          "south korea"
       ]
    },
    {
-      "country-code": "kw",
       "display-name": "Kuwait",
+      "country-code": "kw",
       "aliases": [
          "kuwait"
       ]
    },
    {
-      "country-code": "kg",
       "display-name": "Kyrgyzstan",
+      "country-code": "kg",
       "aliases": [
          "kyrgyzstan"
       ]
    },
    {
-      "country-code": "la",
       "display-name": "Lao Peoples Democratic Republic",
+      "country-code": "la",
       "aliases": [
-         "lao peoples democratic republic",
-         "laos"
+         "lao peoples democratic republic"
       ]
    },
    {
-      "country-code": "lv",
       "display-name": "Latvia",
+      "country-code": "lv",
       "aliases": [
          "latvia"
       ]
    },
    {
-      "country-code": "lb",
       "display-name": "Lebanon",
+      "country-code": "lb",
       "aliases": [
          "lebanon"
       ]
    },
    {
-      "country-code": "ls",
       "display-name": "Lesotho",
+      "country-code": "ls",
       "aliases": [
          "lesotho"
       ]
    },
    {
-      "country-code": "lr",
       "display-name": "Liberia",
+      "country-code": "lr",
       "aliases": [
          "liberia"
       ]
    },
    {
-      "country-code": "ly",
       "display-name": "Libya",
+      "country-code": "ly",
       "aliases": [
          "libya"
       ]
    },
    {
-      "country-code": "li",
       "display-name": "Liechtenstein",
+      "country-code": "li",
       "aliases": [
          "liechtenstein"
       ]
    },
    {
-      "country-code": "lt",
       "display-name": "Lithuania",
+      "country-code": "lt",
       "aliases": [
          "lithuania"
       ]
    },
    {
-      "country-code": "lu",
       "display-name": "Luxembourg",
+      "country-code": "lu",
       "aliases": [
          "luxembourg"
       ]
    },
    {
-      "country-code": "mo",
       "display-name": "Macao",
+      "country-code": "mo",
       "aliases": [
          "macao"
       ]
    },
    {
-      "country-code": "mk",
       "display-name": "The former Yugoslav Republic of Macedonia",
+      "country-code": "mk",
       "aliases": [
          "macedonia"
       ]
    },
    {
-      "country-code": "mg",
       "display-name": "Madagascar",
+      "country-code": "mg",
       "aliases": [
          "madagascar"
       ]
    },
    {
-      "country-code": "mw",
       "display-name": "Malawi",
+      "country-code": "mw",
       "aliases": [
          "malawi"
       ]
    },
    {
-      "country-code": "my",
       "display-name": "Malaysia",
+      "country-code": "my",
       "aliases": [
          "malaysia"
       ]
    },
    {
-      "country-code": "mv",
       "display-name": "Maldives",
+      "country-code": "mv",
       "aliases": [
          "maldives"
       ]
    },
    {
-      "country-code": "ml",
       "display-name": "Mali",
+      "country-code": "ml",
       "aliases": [
          "mali"
       ]
    },
    {
-      "country-code": "mt",
       "display-name": "Malta",
+      "country-code": "mt",
       "aliases": [
          "malta"
       ]
    },
    {
-      "country-code": "mh",
       "display-name": "Marshall Islands",
+      "country-code": "mh",
       "aliases": [
          "marshall islands"
       ]
    },
    {
-      "country-code": "mq",
       "display-name": "Martinique",
+      "country-code": "mq",
       "aliases": [
          "martinique"
       ]
    },
    {
-      "country-code": "mr",
       "display-name": "Mauritania",
+      "country-code": "mr",
       "aliases": [
          "mauritania"
       ]
    },
    {
-      "country-code": "mu",
       "display-name": "Mauritius",
+      "country-code": "mu",
       "aliases": [
          "mauritius"
       ]
    },
    {
-      "country-code": "yt",
       "display-name": "Mayotte",
+      "country-code": "yt",
       "aliases": [
          "mayotte"
       ]
    },
    {
-      "country-code": "mx",
       "display-name": "Mexico",
+      "country-code": "mx",
       "aliases": [
          "mexico"
       ]
    },
    {
-      "country-code": "fm",
       "display-name": ",Federated States of Micronesia",
+      "country-code": "fm",
       "aliases": [
          "micronesia"
       ]
    },
    {
-      "country-code": "md",
       "display-name": "Republic of Moldova",
+      "country-code": "md",
       "aliases": [
          "moldova"
       ]
    },
    {
-      "country-code": "mc",
       "display-name": "Monaco",
+      "country-code": "mc",
       "aliases": [
          "monaco"
       ]
    },
    {
-      "country-code": "mn",
       "display-name": "Mongolia",
+      "country-code": "mn",
       "aliases": [
          "mongolia"
       ]
    },
    {
-      "country-code": "me",
       "display-name": "Montenegro",
+      "country-code": "me",
       "aliases": [
          "montenegro"
       ]
    },
    {
-      "country-code": "ms",
       "display-name": "Montserrat",
+      "country-code": "ms",
       "aliases": [
          "montserrat"
       ]
    },
    {
-      "country-code": "ma",
       "display-name": "Morocco",
+      "country-code": "ma",
       "aliases": [
          "morocco"
       ]
    },
    {
-      "country-code": "mz",
       "display-name": "Mozambique",
+      "country-code": "mz",
       "aliases": [
          "mozambique"
       ]
    },
    {
-      "country-code": "mm",
       "display-name": "Myanmar",
+      "country-code": "mm",
       "aliases": [
          "myanmar"
       ]
    },
    {
-      "country-code": "na",
       "display-name": "Namibia",
+      "country-code": "na",
       "aliases": [
          "namibia"
       ]
    },
    {
-      "country-code": "nr",
       "display-name": "Nauru",
+      "country-code": "nr",
       "aliases": [
          "nauru"
       ]
    },
    {
-      "country-code": "np",
       "display-name": "Nepal",
+      "country-code": "np",
       "aliases": [
          "nepal"
       ]
    },
    {
-      "country-code": "nl",
       "display-name": "Netherlands",
+      "country-code": "nl",
       "aliases": [
          "netherlands"
       ]
    },
    {
-      "country-code": "nc",
       "display-name": "New Caledonia",
+      "country-code": "nc",
       "aliases": [
          "new caledonia"
       ]
    },
    {
-      "country-code": "nz",
       "display-name": "New Zealand",
+      "country-code": "nz",
       "aliases": [
          "new zealand"
       ]
    },
    {
-      "country-code": "ni",
       "display-name": "Nicaragua",
+      "country-code": "ni",
       "aliases": [
          "nicaragua"
       ]
    },
    {
-      "country-code": "ne",
       "display-name": "Niger",
+      "country-code": "ne",
       "aliases": [
          "niger"
       ]
    },
    {
-      "country-code": "ng",
       "display-name": "Nigeria",
+      "country-code": "ng",
       "aliases": [
          "nigeria"
       ]
    },
    {
-      "country-code": "nu",
       "display-name": "Niue",
+      "country-code": "nu",
       "aliases": [
          "niue"
       ]
    },
    {
-      "country-code": "nf",
       "display-name": "Norfolk Island",
+      "country-code": "nf",
       "aliases": [
          "norfolk island"
       ]
    },
    {
-      "country-code": "mp",
       "display-name": "Northern Mariana Islands",
+      "country-code": "mp",
       "aliases": [
          "northern mariana islands"
       ]
    },
    {
-      "country-code": "no",
       "display-name": "Norway",
+      "country-code": "no",
       "aliases": [
          "norway"
       ]
    },
    {
-      "country-code": "om",
       "display-name": "Oman",
+      "country-code": "om",
       "aliases": [
          "oman"
       ]
    },
    {
-      "country-code": "pk",
       "display-name": "Pakistan",
+      "country-code": "pk",
       "aliases": [
          "pakistan"
       ]
    },
    {
-      "country-code": "pw",
       "display-name": "Palau",
+      "country-code": "pw",
       "aliases": [
          "palau"
       ]
    },
    {
-      "country-code": "ps",
       "display-name": "State of Palestine",
+      "country-code": "ps",
       "aliases": [
          "palestine"
       ]
    },
    {
-      "country-code": "pa",
       "display-name": "Panama",
+      "country-code": "pa",
       "aliases": [
          "panama"
       ]
    },
    {
-      "country-code": "pg",
       "display-name": "Papua New Guinea",
+      "country-code": "pg",
       "aliases": [
          "papua new guinea"
       ]
    },
    {
-      "country-code": "py",
       "display-name": "Paraguay",
+      "country-code": "py",
       "aliases": [
          "paraguay"
       ]
    },
    {
-      "country-code": "pe",
       "display-name": "Peru",
+      "country-code": "pe",
       "aliases": [
          "peru"
       ]
    },
    {
-      "country-code": "ph",
       "display-name": "Philippines",
+      "country-code": "ph",
       "aliases": [
          "philippines"
       ]
    },
    {
-      "country-code": "pn",
+      "display-name": "Sealand",
+      "direct-link": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Flag_of_Sealand.svg",
+      "aliases": [
+        "sealand"
+      ]
+   },
+   {
       "display-name": "Pitcairn",
+      "country-code": "pn",
       "aliases": [
          "pitcairn"
       ]
    },
    {
-      "country-code": "pl",
       "display-name": "Poland",
+      "country-code": "pl",
       "aliases": [
          "poland"
       ]
    },
    {
-      "country-code": "pt",
       "display-name": "Portugal",
+      "country-code": "pt",
       "aliases": [
-         "portugal"
+         "portugal",
+         "portuguese"
       ]
    },
    {
-      "country-code": "pr",
       "display-name": "Puerto Rico",
+      "country-code": "pr",
       "aliases": [
          "puerto rico"
       ]
    },
    {
-      "country-code": "qa",
       "display-name": "Qatar",
+      "country-code": "qa",
       "aliases": [
          "qatar"
       ]
    },
    {
-      "country-code": "ro",
       "display-name": "Romania",
+      "country-code": "ro",
       "aliases": [
          "romania"
       ]
    },
    {
-      "country-code": "ru",
       "display-name": "Russian Federation",
+      "country-code": "ru",
       "aliases": [
          "russian federation",
          "russia"
       ]
    },
    {
-      "country-code": "rw",
       "display-name": "Rwanda",
+      "country-code": "rw",
       "aliases": [
          "rwanda"
       ]
    },
    {
-      "country-code": "re",
       "display-name": "R\u00e9union",
+      "country-code": "re",
       "aliases": [
          "r\u00e9union",
-         " réunion "
+         " r\u00e9union "
       ]
    },
    {
-     "country-code": "gb-sct",
-     "display-name": "Scotland",
-     "aliases": [
-       "scotland"
-     ]
+      "display-name": "Scotland",
+      "country-code": "gb-sct",
+      "aliases": [
+         "scotland"
+      ]
    },
    {
-      "country-code": "bl",
       "display-name": "Saint Barth\u00e9lemy",
+      "country-code": "bl",
       "aliases": [
          "saint barth\u00e9lemy",
-         "saint barthélemy",
+         "saint barth\u00e9lemy",
          "saint bathelemy"
       ]
    },
    {
-      "country-code": "sh",
       "display-name": "Saint Helena, Ascension and Tristan da Cunha",
+      "country-code": "sh",
       "aliases": [
          "saint helena, ascension and tristan da cunha",
          "saint helena"
-
       ]
    },
    {
-      "country-code": "kn",
       "display-name": "Saint Kitts and Nevis",
+      "country-code": "kn",
       "aliases": [
          "saint kitts and nevis",
          "saint kitts",
@@ -1343,22 +1349,22 @@
       ]
    },
    {
-      "country-code": "lc",
       "display-name": "Saint Lucia",
+      "country-code": "lc",
       "aliases": [
          "saint lucia"
       ]
    },
    {
-      "country-code": "mf",
       "display-name": "Saint Martin (French part)",
+      "country-code": "mf",
       "aliases": [
          "saint martin"
       ]
    },
    {
-      "country-code": "pm",
       "display-name": "Saint Pierre and Miquelon",
+      "country-code": "pm",
       "aliases": [
          "saint pierre and miquelon",
          "miquelon",
@@ -1366,8 +1372,8 @@
       ]
    },
    {
-      "country-code": "vc",
       "display-name": "Saint Vincent and the Grenadines",
+      "country-code": "vc",
       "aliases": [
          "saint vincent and the grenadines",
          "saint vincent",
@@ -1375,22 +1381,22 @@
       ]
    },
    {
-      "country-code": "ws",
       "display-name": "Samoa",
+      "country-code": "ws",
       "aliases": [
          "samoa"
       ]
    },
    {
-      "country-code": "sm",
       "display-name": "San Marino",
+      "country-code": "sm",
       "aliases": [
          "san marino"
       ]
    },
    {
-      "country-code": "st",
       "display-name": "Sao Tome and Principe",
+      "country-code": "st",
       "aliases": [
          "sao tome and principe",
          "sao tome",
@@ -1398,295 +1404,288 @@
       ]
    },
    {
-      "country-code": "sa",
       "display-name": "Saudi Arabia",
+      "country-code": "sa",
       "aliases": [
          "saudi arabia"
       ]
    },
    {
-      "country-code": "sn",
       "display-name": "Senegal",
+      "country-code": "sn",
       "aliases": [
          "senegal"
       ]
    },
    {
-      "country-code": "rs",
       "display-name": "Serbia",
+      "country-code": "rs",
       "aliases": [
          "serbia"
       ]
    },
    {
-      "country-code": "sc",
       "display-name": "Seychelles",
+      "country-code": "sc",
       "aliases": [
          "seychelles"
       ]
    },
    {
-      "country-code": "sl",
       "display-name": "Sierra Leone",
+      "country-code": "sl",
       "aliases": [
          "sierra leone"
       ]
    },
    {
-      "country-code": "sg",
       "display-name": "Singapore",
+      "country-code": "sg",
       "aliases": [
          "singapore"
       ]
    },
    {
-      "country-code": "sx",
       "display-name": "Sint Maarten (Dutch part)",
+      "country-code": "sx",
       "aliases": [
          "sint maarten"
       ]
    },
    {
-      "country-code": "sk",
       "display-name": "Slovakia",
+      "country-code": "sk",
       "aliases": [
          "slovakia"
       ]
    },
    {
-      "country-code": "si",
       "display-name": "Slovenia",
+      "country-code": "si",
       "aliases": [
          "slovenia"
       ]
    },
    {
-      "country-code": "sb",
       "display-name": "Solomon Islands",
+      "country-code": "sb",
       "aliases": [
          "solomon islands"
       ]
    },
    {
-      "country-code": "so",
       "display-name": "Somalia",
+      "country-code": "so",
       "aliases": [
          "somalia"
       ]
    },
    {
-      "country-code": "za",
       "display-name": "South Africa",
+      "country-code": "za",
       "aliases": [
          "south africa"
       ]
    },
    {
-      "country-code": "gs",
       "display-name": "South Georgia and the South Sandwich Islands",
+      "country-code": "gs",
       "aliases": [
          "south georgia",
          "south sandwich islands"
       ]
    },
    {
-      "country-code": "ss",
       "display-name": "South Sudan",
+      "country-code": "ss",
       "aliases": [
          "south sudan"
       ]
    },
    {
-      "country-code": "es",
       "display-name": "Spain",
+      "country-code": "es",
       "aliases": [
          "spain"
       ]
    },
    {
-      "country-code": "lk",
       "display-name": "Sri Lanka",
+      "country-code": "lk",
       "aliases": [
          "sri lanka"
       ]
    },
    {
-      "country-code": "sd",
       "display-name": "Sudan",
+      "country-code": "sd",
       "aliases": [
          "sudan"
       ]
    },
    {
-      "country-code": "sr",
       "display-name": "Suriname",
+      "country-code": "sr",
       "aliases": [
          "suriname"
       ]
    },
    {
-      "country-code": "sj",
       "display-name": "Svalbard and Jan Mayen",
+      "country-code": "sj",
       "aliases": [
          "jan mayen",
          "svalbard"
       ]
    },
    {
-      "country-code": "sz",
       "display-name": "Swaziland",
+      "country-code": "sz",
       "aliases": [
          "swaziland"
       ]
    },
    {
-      "country-code": "se",
       "display-name": "Sweden",
+      "country-code": "se",
       "aliases": [
          "sweden"
       ]
    },
    {
-      "country-code": "ch",
       "display-name": "Switzerland",
+      "country-code": "ch",
       "aliases": [
          "switzerland"
       ]
    },
    {
-      "country-code": "sy",
       "display-name": "Syrian Arab Republic",
+      "country-code": "sy",
       "aliases": [
          "syrian arab republic",
          "syria"
       ]
    },
    {
-      "country-code": "tw",
       "display-name": "Taiwan, Province of China",
+      "country-code": "tw",
       "aliases": [
          "taiwan, province of china",
          "taiwan"
       ]
    },
    {
-      "country-code": "tj",
       "display-name": "Tajikistan",
+      "country-code": "tj",
       "aliases": [
          "tajikistan"
       ]
    },
    {
-      "country-code": "tz",
       "display-name": "United Republic of Tanzania",
+      "country-code": "tz",
       "aliases": [
          "tanzania"
       ]
    },
    {
-      "country-code": "th",
       "display-name": "Thailand",
+      "country-code": "th",
       "aliases": [
          "thailand"
       ]
    },
    {
-      "country-code": "tl",
       "display-name": "Timor-Leste",
+      "country-code": "tl",
       "aliases": [
          "timor-leste"
       ]
    },
    {
-      "country-code": "tg",
-      "display-name": "Togo",
-      "aliases": [
-         "togo"
-      ]
-   },
-   {
-      "country-code": "tk",
       "display-name": "Tokelau",
+      "country-code": "tk",
       "aliases": [
          "tokelau"
       ]
    },
    {
-      "country-code": "to",
       "display-name": "Tonga",
+      "country-code": "to",
       "aliases": [
          "tonga"
       ]
    },
    {
-      "country-code": "tt",
       "display-name": "Trinidad and Tobago",
+      "country-code": "tt",
       "aliases": [
          "trinidad",
          "tobago"
       ]
    },
    {
-      "country-code": "tn",
       "display-name": "Tunisia",
+      "country-code": "tn",
       "aliases": [
          "tunisia"
       ]
    },
    {
-      "country-code": "tr",
       "display-name": "Turkey",
+      "country-code": "tr",
       "aliases": [
          "turkey"
       ]
    },
    {
-      "country-code": "tm",
       "display-name": "Turkmenistan",
+      "country-code": "tm",
       "aliases": [
          "turkmenistan"
       ]
    },
    {
-      "country-code": "tc",
       "display-name": "Turks and Caicos Islands",
+      "country-code": "tc",
       "aliases": [
          "caicos islands",
          "turks islands"
       ]
    },
    {
-      "country-code": "tv",
       "display-name": "Tuvalu",
+      "country-code": "tv",
       "aliases": [
          "tuvalu"
       ]
    },
    {
-      "country-code": "ug",
       "display-name": "Uganda",
+      "country-code": "ug",
       "aliases": [
          "uganda"
       ]
    },
    {
-      "country-code": "ua",
       "display-name": "Ukraine",
+      "country-code": "ua",
       "aliases": [
          "ukraine"
       ]
    },
    {
-      "country-code": "ae",
       "display-name": "United Arab Emirates",
+      "country-code": "ae",
       "aliases": [
          "united arab emirates",
          " uae "
       ]
    },
    {
-      "country-code": "us",
       "display-name": "United States",
+      "country-code": "us",
       "aliases": [
          "united states",
          "america",
@@ -1696,111 +1695,524 @@
       ]
    },
    {
-      "country-code": "um",
       "display-name": "United States Minor Outlying Islands",
+      "country-code": "um",
       "aliases": [
          "united states minor outlying islands"
       ]
    },
    {
-      "country-code": "gb-eng",
       "display-name": "England",
+      "country-code": "gb-eng",
       "aliases": [
          "england"
       ]
    },
    {
-      "country-code": "uy",
       "display-name": "Uruguay",
+      "country-code": "uy",
       "aliases": [
          "uruguay"
       ]
    },
    {
-      "country-code": "uz",
       "display-name": "Uzbekistan",
+      "country-code": "uz",
       "aliases": [
          "uzbekistan"
       ]
    },
    {
-      "country-code": "vu",
       "display-name": "Vanuatu",
+      "country-code": "vu",
       "aliases": [
          "vanuatu"
       ]
    },
    {
-      "country-code": "ve",
       "display-name": "Venezuela, Bolivarian Republic of",
+      "country-code": "ve",
       "aliases": [
          "venezuela, bolivarian republic of"
       ]
    },
    {
-      "country-code": "vn",
       "display-name": "Viet Nam",
+      "country-code": "vn",
       "aliases": [
          "viet nam"
       ]
    },
    {
-      "country-code": "vg",
       "display-name": "Virgin Islands, British",
+      "country-code": "vg",
       "aliases": [
          "virgin islands, british"
       ]
    },
    {
-      "country-code": "vi",
       "display-name": "Virgin Islands, U.S.",
+      "country-code": "vi",
       "aliases": [
          "virgin islands, u.s."
       ]
    },
    {
-      "country-code": "wf",
       "display-name": "Wallis and Futuna",
+      "country-code": "wf",
       "aliases": [
          "futuna",
          "wallis"
       ]
    },
    {
-      "country-code": "eh",
       "display-name": "Western Sahara",
+      "country-code": "eh",
       "aliases": [
          "western sahara"
       ]
    },
    {
-      "country-code": "ye",
       "display-name": "Yemen",
+      "country-code": "ye",
       "aliases": [
          "yemen"
       ]
    },
    {
-      "country-code": "zm",
       "display-name": "Zambia",
+      "country-code": "zm",
       "aliases": [
          "zambia"
       ]
    },
    {
-      "country-code": "zw",
       "display-name": "Zimbabwe",
+      "country-code": "zw",
       "aliases": [
          "zimbabwe"
       ]
    },
    {
-      "country-code": "ax",
       "display-name": "\u00c5land Islands",
+      "country-code": "ax",
       "aliases": [
          "\u00e5land islands",
-         "Åland island",
+         "\u00c5land island",
          "aland islands"
       ]
+   },
+   {
+      "display-name": "Alabama",
+      "aliases": [
+         "alabama"
+      ],
+      "state-code": "al"
+   },
+   {
+      "display-name": "Alaska",
+      "state-code": "ak",
+      "aliases": [
+         "alaska"
+      ]
+   },
+   {
+      "display-name": "Arizona",
+      "aliases": [
+         "arizona"
+      ],
+      "state-code": "az"
+   },
+   {
+      "display-name": "Arkansas",
+      "state-code": "ar",
+      "aliases": [
+         "arkansas"
+      ]
+   },
+   {
+      "display-name": "California",
+      "aliases": [
+         "california"
+      ],
+      "state-code": "ca"
+   },
+   {
+      "display-name": "Colorado",
+      "state-code": "co",
+      "aliases": [
+         "colorado"
+      ]
+   },
+   {
+      "display-name": "Connecticut",
+      "aliases": [
+         "connecticut"
+      ],
+      "state-code": "ct"
+   },
+   {
+      "display-name": "Delaware",
+      "state-code": "de",
+      "aliases": [
+         "delaware"
+      ]
+   },
+   {
+      "display-name": "Florida",
+      "aliases": [
+         "florida"
+      ],
+      "state-code": "fl"
+   },
+   {
+      "display-name": "Georgia",
+      "state-code": "ga",
+      "aliases": [
+         "georgia"
+      ]
+   },
+   {
+      "display-name": "Hawaii",
+      "aliases": [
+         "hawaii"
+      ],
+      "state-code": "hi"
+   },
+   {
+      "display-name": "Idaho",
+      "state-code": "id",
+      "aliases": [
+         "idaho"
+      ]
+   },
+   {
+      "display-name": "Illinois",
+      "aliases": [
+         "illinois"
+      ],
+      "state-code": "il"
+   },
+   {
+      "display-name": "Indiana",
+      "state-code": "in",
+      "aliases": [
+         "indiana"
+      ]
+   },
+   {
+      "display-name": "Iowa",
+      "aliases": [
+         "iowa"
+      ],
+      "state-code": "ia"
+   },
+   {
+      "display-name": "Kansas",
+      "state-code": "ks",
+      "aliases": [
+         "kansas"
+      ]
+   },
+   {
+      "display-name": "Kentucky",
+      "aliases": [
+         "kentucky"
+      ],
+      "state-code": "ky"
+   },
+   {
+      "display-name": "Louisiana",
+      "state-code": "la",
+      "aliases": [
+         "louisiana"
+      ]
+   },
+   {
+      "display-name": "Maine",
+      "aliases": [
+         "maine"
+      ],
+      "state-code": "me"
+   },
+   {
+      "display-name": "Maryland",
+      "state-code": "md",
+      "aliases": [
+         "maryland"
+      ]
+   },
+   {
+      "display-name": "Massachusetts",
+      "aliases": [
+         "massachusetts"
+      ],
+      "state-code": "ma"
+   },
+   {
+      "display-name": "Michigan",
+      "state-code": "mi",
+      "aliases": [
+         "michigan"
+      ]
+   },
+   {
+      "display-name": "Minnesota",
+      "aliases": [
+         "minnesota"
+      ],
+      "state-code": "mn"
+   },
+   {
+      "display-name": "Mississippi",
+      "state-code": "ms",
+      "aliases": [
+         "mississippi"
+      ]
+   },
+   {
+      "display-name": "Missouri",
+      "aliases": [
+         "missouri"
+      ],
+      "state-code": "mo"
+   },
+   {
+      "display-name": "Montana",
+      "state-code": "mt",
+      "aliases": [
+         "montana"
+      ]
+   },
+   {
+      "display-name": "Nebraska",
+      "aliases": [
+         "nebraska"
+      ],
+      "state-code": "ne"
+   },
+   {
+      "display-name": "Nevada",
+      "state-code": "nv",
+      "aliases": [
+         "nevada"
+      ]
+   },
+   {
+      "display-name": "New Hampshire",
+      "aliases": [
+         "new hampshire"
+      ],
+      "state-code": "nh"
+   },
+   {
+      "display-name": "New Jersey",
+      "state-code": "nj",
+      "aliases": [
+         "new jersey"
+      ]
+   },
+   {
+      "display-name": "New Mexico",
+      "aliases": [
+         "new mexico"
+      ],
+      "state-code": "nm"
+   },
+   {
+      "display-name": "New York",
+      "state-code": "ny",
+      "aliases": [
+         "new york"
+      ]
+   },
+   {
+      "display-name": "North Carolina",
+      "aliases": [
+         "north carolina"
+      ],
+      "state-code": "nc"
+   },
+   {
+      "display-name": "North Dakota",
+      "state-code": "nd",
+      "aliases": [
+         "north dakota"
+      ]
+   },
+   {
+      "display-name": "Ohio",
+      "aliases": [
+         "ohio"
+      ],
+      "state-code": "oh"
+   },
+   {
+      "display-name": "Oklahoma",
+      "state-code": "ok",
+      "aliases": [
+         "oklahoma"
+      ]
+   },
+   {
+      "display-name": "Oregon",
+      "aliases": [
+         "oregon"
+      ],
+      "state-code": "or"
+   },
+   {
+      "display-name": "Pennsylvania",
+      "state-code": "pa",
+      "aliases": [
+         "pennsylvania"
+      ]
+   },
+   {
+      "display-name": "Rhode Island",
+      "aliases": [
+         "rhode island"
+      ],
+      "state-code": "ri"
+   },
+   {
+      "display-name": "South Carolina",
+      "state-code": "sc",
+      "aliases": [
+         "south carolina"
+      ]
+   },
+   {
+      "display-name": "South Dakota",
+      "aliases": [
+         "south dakota"
+      ],
+      "state-code": "sd"
+   },
+   {
+      "display-name": "Tennessee",
+      "state-code": "tn",
+      "aliases": [
+         "tennessee"
+      ]
+   },
+   {
+      "display-name": "Texas",
+      "aliases": [
+         "texas"
+      ],
+      "state-code": "tx"
+   },
+   {
+      "display-name": "Utah",
+      "state-code": "ut",
+      "aliases": [
+         "utah"
+      ]
+   },
+   {
+      "display-name": "Vermont",
+      "aliases": [
+         "vermont"
+      ],
+      "state-code": "vt"
+   },
+   {
+      "display-name": "Virginia",
+      "state-code": "va",
+      "aliases": [
+         "virginia"
+      ]
+   },
+   {
+      "display-name": "Washington",
+      "aliases": [
+         "washington"
+      ],
+      "state-code": "wa"
+   },
+   {
+      "display-name": "West Virginia",
+      "state-code": "wv",
+      "aliases": [
+         "west virginia"
+      ]
+   },
+   {
+      "display-name": "Wisconsin",
+      "aliases": [
+         "wisconsin"
+      ],
+      "state-code": "wi"
+   },
+   {
+      "display-name": "Wyoming",
+      "state-code": "wy",
+      "aliases": [
+         "wyoming"
+      ]
+   },
+   {
+      "display-name": "American Samoa",
+      "aliases": [
+         "american samoa"
+      ],
+      "state-code": "as"
+   },
+   {
+      "display-name": "District of Columbia",
+      "state-code": "dc",
+      "aliases": [
+         "district of columbia"
+      ]
+   },
+   {
+      "display-name": "Federated States of Micronesia",
+      "aliases": [
+         "federated states of micronesia"
+      ],
+      "state-code": "fm"
+   },
+   {
+      "display-name": "Guam",
+      "state-code": "gu",
+      "aliases": [
+         "guam"
+      ]
+   },
+   {
+      "display-name": "Marshall Islands",
+      "aliases": [
+         "marshall islands"
+      ],
+      "state-code": "mh"
+   },
+   {
+      "display-name": "Northern Mariana Islands",
+      "state-code": "mp",
+      "aliases": [
+         "northern mariana islands"
+      ]
+   },
+   {
+      "display-name": "Palau",
+      "aliases": [
+         "palau"
+      ],
+      "state-code": "pw"
+   },
+   {
+      "display-name": "Puerto Rico",
+      "state-code": "pr",
+      "aliases": [
+         "puerto rico"
+      ]
+   },
+   {
+      "display-name": "Virgin Islands",
+      "aliases": [
+         "virgin islands"
+      ],
+      "state-code": "vi"
    }
 ]

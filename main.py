@@ -7,6 +7,7 @@ from fuzzywuzzy import fuzz #https://github.com/seatgeek/fuzzywuzzy
 from googlesearch import search #https://pypi.org/project/google/#description
 import json
 import re
+import asyncio
 
 #Flags Credit:
 #Country flag: http://hjnilsson.github.io/country-flags/
@@ -71,19 +72,12 @@ def blacklist(post):
     f.write("\n")
     f.close()
 
-#Handle comments
-def handle_comment(comment):
-    body = comment.body
-    if('u/VexillologyBot' in comment):
-        comment.reply("body")
-
-
 #Handle the post!
 def handle_post(post):
     title = post.title
     print("")
     print("Handling: " + title)
-    regex = re.compile('[^a-zA-Z ]')
+    regex = re.compile('[^a-zA-Z ,]')
     title = regex.sub('',title)
     title = title.lower()
     with open(LOCATIONS, "r+") as outfile:
@@ -96,6 +90,8 @@ def handle_post(post):
                     print("I found a country!: " + alias)
                     o.add(LinkObject(object.get("display-name"),object.get("direct-link"),object.get("state-code"),object.get("country-code")))
                     break
+
+
         comment = "I did my best to find the following flags:\n\n"
         for object in o:
             display_name = object.display_name
@@ -127,7 +123,9 @@ def main():
     while True:
         try:
             for post in vexillology.stream.submissions():
-                if(not blacklisted(post) and post.created_utc > TIME_FREEZE):
+                print(post.title)
+
+                if(not blacklisted(post) and post.created_utc > TIME_FREEZE and (post.link_flair_text.strip().lower() == "redesigns")):
                     handle_post(post)
 
         except Exception as e: print(e)
