@@ -4,7 +4,7 @@ import praw #https://praw.readthedocs.io/en/latest/
 import time
 import sched
 from fuzzywuzzy import fuzz #https://github.com/seatgeek/fuzzywuzzy
-from googlesearch import search #https://pypi.org/project/google/#description
+#from googlesearch import search #https://pypi.org/project/google/#description
 import json
 import re
 import asyncio
@@ -21,14 +21,14 @@ import asyncio
 #Globals
 VERSION = 1.4
 POST_DELAY = 10 #seconds
-TIME_FREEZE = 1537115400 #This is a UTC time. I don't want to handle posts that happened pre-my bot
+TIME_FREEZE = 1560132630 #This is a UTC time. I don't want to handle posts that happened pre-my bot
 COUNTRY_MATCH_THRESHOLD = 80
 
 
 #Setup
-LOGIN = "/home/liam/application_data/atom/reddit/VexillologyBot/login.txt"
-LOCATIONS = "/home/liam/application_data/atom/reddit/VexillologyBot/locations.json"
-BLACKLIST = "/home/liam/application_data/atom/reddit/VexillologyBot/blacklist.txt"
+LOGIN = "login.txt"
+LOCATIONS = "locations.json"
+BLACKLIST = "blacklist.txt"
 SUBREDDIT = "vexillology"
 
 
@@ -92,7 +92,7 @@ def handle_post(post):
                     break
 
 
-        comment = "I did my best to find the following flags:\n\n"
+        comment = "I did my best to find the following flags: \n\n"
         for object in o:
             display_name = object.display_name
             direct_link = object.direct_link
@@ -123,9 +123,8 @@ def main():
     while True:
         try:
             for post in vexillology.stream.submissions():
-                print(post.title)
-
-                if(not blacklisted(post) and post.created_utc > TIME_FREEZE and (post.link_flair_text.strip().lower() == "redesigns")):
+                if(not blacklisted(post) and post.created_utc > TIME_FREEZE and (post.link_flair_text is not None and post.link_flair_text.strip().lower() == "redesigns")):
+                    print("link: " + post.permalink)
                     handle_post(post)
 
         except Exception as e: print(e)
