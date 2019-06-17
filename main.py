@@ -123,7 +123,7 @@ def main():
     while True:
         try:
             for post in vexillology.stream.submissions():
-                if(not blacklisted(post) and post.created_utc > TIME_FREEZE and (post.link_flair_text is not None and post.link_flair_text.strip().lower() == "redesigns")):
+                if(not blacklisted(post) and post.created_utc > TIME_FREEZE and (post.link_flair_text is not None and (post.link_flair_text.strip().lower() == "redesigns" or post.link_flair_text.strip().lower() == "oc"))):
                     print("link: " + post.permalink)
                     handle_post(post)
 
