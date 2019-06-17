@@ -21,7 +21,7 @@ import asyncio
 #Globals
 VERSION = 1.4
 POST_DELAY = 10 #seconds
-TIME_FREEZE = 1560132630 #This is a UTC time. I don't want to handle posts that happened pre-my bot
+TIME_FREEZE = time.time()
 COUNTRY_MATCH_THRESHOLD = 80
 
 
