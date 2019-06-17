@@ -104,7 +104,7 @@ def handle_post(post):
             elif(state_code):
                 photo_url = "http://usa.fmcdn.net/data/flags/w580/" + state_code + ".png"
             elif(country_code):
-                photo_url = "https://cdn.rawgit.com/hjnilsson/country-flags/master/svg/" + country_code + ".svg"
+                photo_url = "https://cdn.rawgit.com/hjnilsson/country-flags/master/png1000px/" + country_code + ".png"
 
             new_link = "[%s](%s)\n\n"%(display_name,photo_url)
             comment+=new_link
