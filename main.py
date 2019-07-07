@@ -79,14 +79,17 @@ def handle_post(post):
     print("Handling: " + title)
     regex = re.compile('[^a-zA-Z ,]')
     title = regex.sub('',title)
-    title = title.lower()
+    title = " " + title.lower() + " "
     with open(LOCATIONS, "r+") as outfile:
         data = json.load(outfile)
         o = set()
         for object in data:
             for alias in object.get("aliases"):
+                threshold = COUNTRY_MATCH_THRESHOLD
+                if(len(alias) < 7):
+                    threshold = 100
                 alias = " " + alias + " "
-                if(fuzz.partial_ratio(alias,title) > COUNTRY_MATCH_THRESHOLD):
+                if(fuzz.partial_ratio(alias,title) > threshold):
                     print("I found a country!: " + alias)
                     o.add(LinkObject(object.get("display-name"),object.get("direct-link"),object.get("state-code"),object.get("country-code")))
                     break
@@ -109,7 +112,8 @@ def handle_post(post):
             new_link = "[%s](%s)\n\n"%(display_name,photo_url)
             comment+=new_link
         if(len(o) > 0):
-            comment += "Learn more: [GitHub](https://github.com/SirLich/vexillology-bot)"
+            comment += "Learn more: [GitHub](https://github.com/SirLich/vexillology-bot/blob/master/README.md)\n"
+            commenty += "Lodge a [complaint](https://forms.gle/bYck6E7S2FRth2Ao8)"
             print(comment)
             print("")
             comment = post.reply(comment)
