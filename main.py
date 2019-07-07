@@ -23,6 +23,7 @@ VERSION = 1.4
 POST_DELAY = 10 #seconds
 TIME_FREEZE = time.time()
 COUNTRY_MATCH_THRESHOLD = 80
+TESTING = False
 
 
 #Setup
@@ -30,6 +31,9 @@ LOGIN = "login.txt"
 LOCATIONS = "locations.json"
 BLACKLIST = "blacklist.txt"
 SUBREDDIT = "vexillology"
+
+if(TESTING):
+    SUBREDDIT = "sirlichbottesting"
 
 
 login_file = open(LOGIN, "r")
@@ -44,7 +48,7 @@ USER_AGENT = "SirLich"
 reddit = praw.Reddit(client_id=CLIENT_ID,client_secret=CLIENT_SECRET,password=PASSWORD,user_agent=USER_AGENT,username=USERNAME,)
 
 #Setup the subreedit we will use
-vexillology = reddit.subreddit(SUBREDDIT)
+subreddit = reddit.subreddit(SUBREDDIT)
 
 #Temp class used for things
 class LinkObject:
@@ -72,25 +76,32 @@ def blacklist(post):
     f.write("\n")
     f.close()
 
+def tprint(m):
+    if(TESTING):
+        print(m)
+
 #Handle the post!
 def handle_post(post):
     title = post.title
-    print("")
-    print("Handling: " + title)
-    regex = re.compile('[^a-zA-Z ,]')
-    title = regex.sub('',title)
+    tprint("")
+    tprint("Handling: " + title)
+    regex = re.compile('[^a-zA-Z ]')
+    title = regex.sub(' ',title)
     title = " " + title.lower() + " "
+    tprint("Scrubbed as: " + title)
     with open(LOCATIONS, "r+") as outfile:
         data = json.load(outfile)
         o = set()
         for object in data:
             for alias in object.get("aliases"):
                 threshold = COUNTRY_MATCH_THRESHOLD
-                if(len(alias) < 7):
+                if(len(alias) < 8):
+                    tprint("setting threshold higher! for " + alias)
                     threshold = 100
+                    tprint("Fuzz: " + str(fuzz.partial_ratio(alias,title)))
                 alias = " " + alias + " "
-                if(fuzz.partial_ratio(alias,title) > threshold):
-                    print("I found a country!: " + alias)
+                if(fuzz.partial_ratio(alias,title) >= threshold):
+                    tprint("I found a country!: " + alias)
                     o.add(LinkObject(object.get("display-name"),object.get("direct-link"),object.get("state-code"),object.get("country-code")))
                     break
 
@@ -112,24 +123,23 @@ def handle_post(post):
             new_link = "[%s](%s)\n\n"%(display_name,photo_url)
             comment+=new_link
         if(len(o) > 0):
-            comment += "Learn more: [GitHub](https://github.com/SirLich/vexillology-bot/blob/master/README.md)\n"
-            commenty += "Lodge a [complaint](https://forms.gle/bYck6E7S2FRth2Ao8)"
-            print(comment)
-            print("")
+            comment += "\n\n---\n\nLinks: [GitHub](https://github.com/SirLich/vexillology-bot/blob/master/README.md), [Complain](https://forms.gle/bYck6E7S2FRth2Ao8)"
+            tprint(comment)
+            tprint("")
             comment = post.reply(comment)
     blacklist(post)
     time.sleep(POST_DELAY)
 
 #The main looping part of the program
 def main():
-    print("VexillologyBot bot " + str(VERSION) + " has loaded!")
+    tprint("VexillologyBot bot " + str(VERSION) + " has loaded!")
     script_start = time.time()
     while True:
         try:
-            for post in vexillology.stream.submissions():
-                if(not blacklisted(post) and post.created_utc > TIME_FREEZE and (post.link_flair_text is not None and (post.link_flair_text.strip().lower() == "redesigns" or post.link_flair_text.strip().lower() == "oc"))):
-                    print("link: " + post.permalink)
+            for post in subreddit.stream.submissions():
+                if(not blacklisted(post) and post.created_utc > TIME_FREEZE and (TESTING or post.link_flair_text is not None and (post.link_flair_text.strip().lower() == "redesigns" or post.link_flair_text.strip().lower() == "oc"))):
+                    tprint("link: " + post.permalink)
                     handle_post(post)
 
-        except Exception as e: print(e)
+        except Exception as e: tprint(e)
 main()
