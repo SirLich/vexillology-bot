@@ -10,28 +10,32 @@
       "display-name": "Albania",
       "country-code": "al",
       "aliases": [
-         "albania"
+         "albania",
+         "albanian"
       ]
    },
    {
       "display-name": "Algeria",
       "country-code": "dz",
       "aliases": [
-         "algeria"
+         "algeria",
+         "algerian"
       ]
    },
    {
       "display-name": "American Samoa",
       "country-code": "as",
       "aliases": [
-         "american samoa"
+         "american samoa",
+         "samoa"
       ]
    },
    {
       "display-name": "Andorra",
       "country-code": "ad",
       "aliases": [
-         "andorra"
+         "andorra",
+         "andorran"
       ]
    },
    {
@@ -67,14 +71,16 @@
       "display-name": "Argentina",
       "country-code": "ar",
       "aliases": [
-         "argentina"
+         "argentina",
+         "argentinian"
       ]
    },
    {
       "display-name": "Armenia",
       "country-code": "am",
       "aliases": [
-         "armenia"
+         "armenia",
+         "armenian"
       ]
    },
    {
@@ -88,14 +94,16 @@
       "display-name": "Australia",
       "country-code": "au",
       "aliases": [
-         "australia"
+         "australia",
+         "australian"
       ]
    },
    {
       "display-name": "Austria",
       "country-code": "at",
       "aliases": [
-         "austria"
+         "austria",
+         "austrian"
       ]
    },
    {
@@ -137,7 +145,8 @@
       "display-name": "Belarus",
       "country-code": "by",
       "aliases": [
-         "belarus"
+         "belarus",
+         "belarusian"
       ]
    },
    {
@@ -179,7 +188,8 @@
       "display-name": "Plurinational State of Bolivia",
       "country-code": "bo",
       "aliases": [
-         "bolivia"
+         "bolivia",
+         "bolivian"
       ]
    },
    {
@@ -274,7 +284,8 @@
       "display-name": "Canada",
       "country-code": "ca",
       "aliases": [
-         "canada"
+         "canada",
+         "canadian"
       ]
    },
    {
@@ -339,7 +350,8 @@
       "display-name": "Colombia",
       "country-code": "co",
       "aliases": [
-         "colombia"
+         "colombia",
+         "colombian"
       ]
    },
    {
@@ -360,7 +372,7 @@
       "display-name": "the Democratic Republic of the Congo",
       "country-code": "cd",
       "aliases": [
-         "congo"
+         "democratic republic of the congo"
       ]
    },
    {
@@ -388,7 +400,8 @@
       "display-name": "Cuba",
       "country-code": "cu",
       "aliases": [
-         "cuba"
+         "cuba",
+         "cuban"
       ]
    },
    {
@@ -415,10 +428,10 @@
       ]
    },
    {
-      "display-name": "\"C\u00f4te dIvoire\"",
+      "display-name": "C\u00f4te dIvoire",
       "country-code": "ci",
       "aliases": [
-         "\"c\u00f4te divoire\"",
+         "c\u00f4te divoire",
          "cote d'ivoire",
          "cote diviore"
       ]
@@ -455,21 +468,24 @@
       "display-name": "Ecuador",
       "country-code": "ec",
       "aliases": [
-         "ecuador"
+         "ecuador",
+         "ecuadorian"
       ]
    },
    {
       "display-name": "Egypt",
       "country-code": "eg",
       "aliases": [
-         "egypt"
+         "egypt",
+         "egyptian"
       ]
    },
    {
       "display-name": "El Salvador",
       "country-code": "sv",
       "aliases": [
-         "el salvador"
+         "el salvador",
+         "el salvidorian"
       ]
    },
    {
@@ -526,14 +542,17 @@
       "display-name": "Finland",
       "country-code": "fi",
       "aliases": [
-         "finland"
+         "finland",
+         "finnish",
+         "finn"
       ]
    },
    {
       "display-name": "France",
       "country-code": "fr",
       "aliases": [
-         "france"
+         "france",
+         "french"
       ]
    },
    {
@@ -572,17 +591,19 @@
       ]
    },
    {
-      "display-name": "Georgia",
+      "display-name": "Georgia [country]",
       "country-code": "ge",
       "aliases": [
-         "georgia"
+         "georgia",
+         "georgian"
       ]
    },
    {
       "display-name": "Germany",
       "country-code": "de",
       "aliases": [
-         "germany"
+         "germany",
+         "german"
       ]
    },
    {
@@ -603,7 +624,8 @@
       "display-name": "Greece",
       "country-code": "gr",
       "aliases": [
-         "greece"
+         "greece",
+         "greek"
       ]
    },
    {
@@ -659,7 +681,8 @@
       "display-name": "Guinea-Bissau",
       "country-code": "gw",
       "aliases": [
-         "guinea-bissau"
+         "guinea-bissau",
+         "guinea bissau"
       ]
    },
    {
@@ -673,7 +696,8 @@
       "display-name": "Haiti",
       "country-code": "ht",
       "aliases": [
-         "haiti"
+         "haiti",
+         "haitian"
       ]
    },
    {
@@ -718,9 +742,11 @@
       "display-name": "United Kingdom",
       "country-code": "gb",
       "aliases": [
-         " uk ",
+         "uk",
          "united kingdom",
-         "union jack"
+         "union jack",
+         "great britain",
+         "northern ireland"
       ]
    },
    {
@@ -734,7 +760,8 @@
       "display-name": "India",
       "country-code": "in",
       "aliases": [
-         "india"
+         "india",
+         "indian"
       ]
    },
    {
@@ -745,7 +772,7 @@
       ]
    },
    {
-      "display-name": "Islamic Republic of Iran",
+      "display-name": "Iran",
       "country-code": "ir",
       "aliases": [
          "iran"
@@ -783,7 +810,8 @@
       "display-name": "Italy",
       "country-code": "it",
       "aliases": [
-         "italy"
+         "italy",
+         "italian"
       ]
    },
    {
@@ -797,7 +825,8 @@
       "display-name": "Japan",
       "country-code": "jp",
       "aliases": [
-         "japan"
+         "japan",
+         "japanese"
       ]
    },
    {
@@ -882,7 +911,8 @@
       "display-name": "Lebanon",
       "country-code": "lb",
       "aliases": [
-         "lebanon"
+         "lebanon",
+         "lebanese"
       ]
    },
    {
@@ -896,7 +926,8 @@
       "display-name": "Liberia",
       "country-code": "lr",
       "aliases": [
-         "liberia"
+         "liberia",
+         "liberian"
       ]
    },
    {
@@ -1106,7 +1137,9 @@
       "display-name": "Nepal",
       "country-code": "np",
       "aliases": [
-         "nepal"
+         "nepal",
+         "nepalese",
+         "nepali"
       ]
    },
    {
@@ -1169,7 +1202,7 @@
       "display-name": "Northern Mariana Islands",
       "country-code": "mp",
       "aliases": [
-         "northern mariana islands"
+         "mariana islands"
       ]
    },
    {
@@ -1201,7 +1234,7 @@
       ]
    },
    {
-      "display-name": "State of Palestine",
+      "display-name": "Palestine",
       "country-code": "ps",
       "aliases": [
          "palestine"
@@ -1232,7 +1265,8 @@
       "display-name": "Peru",
       "country-code": "pe",
       "aliases": [
-         "peru"
+         "peru",
+         "peruvian"
       ]
    },
    {
@@ -1240,13 +1274,6 @@
       "country-code": "ph",
       "aliases": [
          "philippines"
-      ]
-   },
-   {
-      "display-name": "Sealand",
-      "direct-link": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Flag_of_Sealand.svg",
-      "aliases": [
-        "sealand"
       ]
    },
    {
@@ -1260,7 +1287,8 @@
       "display-name": "Poland",
       "country-code": "pl",
       "aliases": [
-         "poland"
+         "poland",
+         "polish"
       ]
    },
    {
@@ -1293,7 +1321,7 @@
       ]
    },
    {
-      "display-name": "Russian Federation",
+      "display-name": "Russia",
       "country-code": "ru",
       "aliases": [
          "russian federation",
@@ -1312,14 +1340,15 @@
       "country-code": "re",
       "aliases": [
          "r\u00e9union",
-         " r\u00e9union "
+         "reuinion"
       ]
    },
    {
       "display-name": "Scotland",
       "country-code": "gb-sct",
       "aliases": [
-         "scotland"
+         "scotland",
+         "scotish"
       ]
    },
    {
@@ -1335,8 +1364,9 @@
       "display-name": "Saint Helena, Ascension and Tristan da Cunha",
       "country-code": "sh",
       "aliases": [
-         "saint helena, ascension and tristan da cunha",
-         "saint helena"
+         "ascension",
+         "saint helena",
+         "tristan da cunha"
       ]
    },
    {
@@ -1414,7 +1444,8 @@
       "display-name": "Senegal",
       "country-code": "sn",
       "aliases": [
-         "senegal"
+         "senegal",
+         "senegalese"
       ]
    },
    {
@@ -1506,7 +1537,8 @@
       "display-name": "Spain",
       "country-code": "es",
       "aliases": [
-         "spain"
+         "spain",
+         "spanish"
       ]
    },
    {
@@ -1520,7 +1552,8 @@
       "display-name": "Sudan",
       "country-code": "sd",
       "aliases": [
-         "sudan"
+         "sudan",
+         "sudanese"
       ]
    },
    {
@@ -1549,14 +1582,16 @@
       "display-name": "Sweden",
       "country-code": "se",
       "aliases": [
-         "sweden"
+         "sweden",
+         "swedish"
       ]
    },
    {
       "display-name": "Switzerland",
       "country-code": "ch",
       "aliases": [
-         "switzerland"
+         "switzerland",
+         "swiss"
       ]
    },
    {
@@ -1568,11 +1603,11 @@
       ]
    },
    {
-      "display-name": "Taiwan, Province of China",
+      "display-name": "Taiwan",
       "country-code": "tw",
       "aliases": [
-         "taiwan, province of china",
-         "taiwan"
+         "taiwan",
+         "taiwanese"
       ]
    },
    {
@@ -1586,7 +1621,8 @@
       "display-name": "United Republic of Tanzania",
       "country-code": "tz",
       "aliases": [
-         "tanzania"
+         "tanzania",
+         "tanzinian"
       ]
    },
    {
@@ -1600,7 +1636,8 @@
       "display-name": "Timor-Leste",
       "country-code": "tl",
       "aliases": [
-         "timor-leste"
+         "timor-leste",
+         "timor leste"
       ]
    },
    {
@@ -1629,7 +1666,8 @@
       "display-name": "Tunisia",
       "country-code": "tn",
       "aliases": [
-         "tunisia"
+         "tunisia",
+         "tunisian"
       ]
    },
    {
@@ -1672,7 +1710,8 @@
       "display-name": "Ukraine",
       "country-code": "ua",
       "aliases": [
-         "ukraine"
+         "ukraine",
+         "ukrainian"
       ]
    },
    {
@@ -1680,7 +1719,7 @@
       "country-code": "ae",
       "aliases": [
          "united arab emirates",
-         " uae "
+         "uae"
       ]
    },
    {
@@ -1689,7 +1728,7 @@
       "aliases": [
          "united states",
          "america",
-         " usa ",
+         "usa",
          "unites states of america",
          "murica"
       ]
@@ -1730,31 +1769,33 @@
       ]
    },
    {
-      "display-name": "Venezuela, Bolivarian Republic of",
+      "display-name": "Venezuela",
       "country-code": "ve",
       "aliases": [
-         "venezuela, bolivarian republic of"
+         "venezuela, bolivarian republic of",
+         "venezuala"
       ]
    },
    {
       "display-name": "Viet Nam",
       "country-code": "vn",
       "aliases": [
-         "viet nam"
+         "viet nam",
+         "vietnam"
       ]
    },
    {
-      "display-name": "Virgin Islands, British",
+      "display-name": "Virgin Islands [British]",
       "country-code": "vg",
       "aliases": [
-         "virgin islands, british"
+         "virgin islands"
       ]
    },
    {
-      "display-name": "Virgin Islands, U.S.",
+      "display-name": "Virgin Islands [American]",
       "country-code": "vi",
       "aliases": [
-         "virgin islands, u.s."
+         "virgin islands"
       ]
    },
    {
@@ -1833,7 +1874,8 @@
    {
       "display-name": "California",
       "aliases": [
-         "california"
+         "california",
+         "californian"
       ],
       "state-code": "ca"
    },
@@ -1866,7 +1908,7 @@
       "state-code": "fl"
    },
    {
-      "display-name": "Georgia",
+      "display-name": "Georgia [state]",
       "state-code": "ga",
       "aliases": [
          "georgia"
@@ -2099,7 +2141,8 @@
    {
       "display-name": "Texas",
       "aliases": [
-         "texas"
+         "texas",
+         "texan"
       ],
       "state-code": "tx"
    },
@@ -2188,13 +2231,6 @@
       "state-code": "mh"
    },
    {
-      "display-name": "Northern Mariana Islands",
-      "state-code": "mp",
-      "aliases": [
-         "northern mariana islands"
-      ]
-   },
-   {
       "display-name": "Palau",
       "aliases": [
          "palau"
@@ -2214,5 +2250,36 @@
          "virgin islands"
       ],
       "state-code": "vi"
-   }
+   },
+   {
+      "display-name": "Sealand",
+      "direct-link": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Flag_of_Sealand.svg",
+      "aliases": [
+        "sealand"
+      ]
+   },
+   {
+      "display-name": "Bavaria",
+      "direct-link": "http://www.mihalko-family.com/Images/Flags/Bavaria/Horizontal%20Lozengy%20Flag%20with%20Greater%20Coat-of-Arms%20Large.png",
+      "aliases": [
+        "bavaria",
+        "bayern"
+      ]
+   },
+   {
+      "display-name": "European Union",
+      "direct-link": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/1280px-Flag_of_Europe.svg.png",
+      "aliases": [
+        "european union",
+        "eu"
+      ]
+   },
+   {
+      "display-name": "United Nations",
+      "direct-link": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/1280px-Flag_of_Europe.svg.png",
+      "aliases": [
+        "united nations",
+        "un"
+      ]
+   },
 ]
