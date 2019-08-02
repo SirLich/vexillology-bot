@@ -22,7 +22,7 @@ import asyncio
 VERSION = 1.4
 POST_DELAY = 10 #seconds
 COUNTRY_MATCH_THRESHOLD = 82
-TESTING = False
+TESTING = True
 
 
 #Setup
@@ -91,7 +91,30 @@ def scrub_title(title):
 def handle_post(post):
     title = post.title
     title = scrub_title(title)
-    handle_string(title)
+    o = handle_string(title)
+    comment = "I did my best to find the following flags: \n\n"
+    for object in o:
+        display_name = object.display_name
+        direct_link = object.direct_link
+        country_code = object.country_code
+        state_code = object.state_code
+        photo_url = "https://us.v-cdn.net/5018160/uploads/FileUpload/45/7c5d94954064b9f1953165ffe15f06.jpg"
+        if(direct_link):
+            photo_url = direct_link
+        elif(state_code):
+            photo_url = "http://usa.fmcdn.net/data/flags/w580/" + state_code + ".png"
+        elif(country_code):
+            photo_url = "https://cdn.rawgit.com/hjnilsson/country-flags/master/png1000px/" + country_code + ".png"
+
+        new_link = "[%s](%s)\n\n"%(display_name,photo_url)
+        comment+=new_link
+    if(len(o) > 0):
+        comment += "\n\n---\n\nLinks: [GitHub](https://github.com/SirLich/vexillology-bot/blob/master/README.md), [Complain](https://forms.gle/bYck6E7S2FRth2Ao8)"
+        tprint(comment)
+        tprint("")
+        comment = post.reply(comment)
+    blacklist(post)
+    time.sleep(POST_DELAY)
 
 
 def collect_locations(title):
@@ -118,33 +141,11 @@ def collect_locations(title):
 
 def handle_string(title):
     o = collect_locations(title)
-    comment = "I did my best to find the following flags: \n\n"
-    for object in o:
-        display_name = object.display_name
-        direct_link = object.direct_link
-        country_code = object.country_code
-        state_code = object.state_code
-        photo_url = "https://us.v-cdn.net/5018160/uploads/FileUpload/45/7c5d94954064b9f1953165ffe15f06.jpg"
-        if(direct_link):
-            photo_url = direct_link
-        elif(state_code):
-            photo_url = "http://usa.fmcdn.net/data/flags/w580/" + state_code + ".png"
-        elif(country_code):
-            photo_url = "https://cdn.rawgit.com/hjnilsson/country-flags/master/png1000px/" + country_code + ".png"
-
-        new_link = "[%s](%s)\n\n"%(display_name,photo_url)
-        comment+=new_link
-    if(len(o) > 0):
-        comment += "\n\n---\n\nLinks: [GitHub](https://github.com/SirLich/vexillology-bot/blob/master/README.md), [Complain](https://forms.gle/bYck6E7S2FRth2Ao8)"
-        tprint(comment)
-        tprint("")
-        comment = post.reply(comment)
-    blacklist(post)
-    time.sleep(POST_DELAY)
+    return o
 
 #The main looping part of the program
 def start_bot():
-    print("VexillologyBot bot " + str(VERSION) + " has loaded!")
+    print("VexillologyBot bot " + str(VERSION) + " has loaded! >> " + SUBREDDIT)
     script_start_time = time.time()
     while True:
         try:
