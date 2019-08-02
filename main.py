@@ -21,8 +21,7 @@ import asyncio
 #Globals
 VERSION = 1.4
 POST_DELAY = 10 #seconds
-TIME_FREEZE = time.time()
-COUNTRY_MATCH_THRESHOLD = 80
+COUNTRY_MATCH_THRESHOLD = 82
 TESTING = False
 
 
@@ -80,15 +79,22 @@ def tprint(m):
     if(TESTING):
         print(m)
 
+
+def scrub_title(title):
+    regex = re.compile('[^a-zA-Z ]')
+    title = regex.sub(' ',title)
+    title = "                          " + title.lower() + "                             "
+    return title
+
+
 #Handle the post!
 def handle_post(post):
     title = post.title
-    tprint("")
-    tprint("Handling: " + title)
-    regex = re.compile('[^a-zA-Z ]')
-    title = regex.sub(' ',title)
-    title = " " + title.lower() + " "
-    tprint("Scrubbed as: " + title)
+    title = scrub_title(title)
+    handle_string(title)
+
+
+def collect_locations(title):
     with open(LOCATIONS, "r+") as outfile:
         data = json.load(outfile)
         o = set()
@@ -96,50 +102,64 @@ def handle_post(post):
             for alias in object.get("aliases"):
                 threshold = COUNTRY_MATCH_THRESHOLD
                 if(len(alias) < 8):
-                    tprint("setting threshold higher! for " + alias)
                     threshold = 100
-                    tprint("Fuzz: " + str(fuzz.partial_ratio(alias,title)))
+
+                if(object.get("threshold")):
+                    threshold = object.get("threshold")
+
                 alias = " " + alias + " "
-                if(fuzz.partial_ratio(alias,title) >= threshold):
-                    tprint("I found a country!: " + alias)
+                fuzz_ratio = fuzz.partial_ratio(alias, title)
+                no_match_fuzz_ration = fuzz.partial_ratio(title,object.get("no-match"))
+                if(fuzz_ratio >= threshold and no_match_fuzz_ration < threshold):
+                    tprint("Match: " + alias + " " + str(fuzz_ratio) + " " + str(no_match_fuzz_ration))
                     o.add(LinkObject(object.get("display-name"),object.get("direct-link"),object.get("state-code"),object.get("country-code")))
                     break
+        return o
 
+def handle_string(title):
+    o = collect_locations(title)
+    comment = "I did my best to find the following flags: \n\n"
+    for object in o:
+        display_name = object.display_name
+        direct_link = object.direct_link
+        country_code = object.country_code
+        state_code = object.state_code
+        photo_url = "https://us.v-cdn.net/5018160/uploads/FileUpload/45/7c5d94954064b9f1953165ffe15f06.jpg"
+        if(direct_link):
+            photo_url = direct_link
+        elif(state_code):
+            photo_url = "http://usa.fmcdn.net/data/flags/w580/" + state_code + ".png"
+        elif(country_code):
+            photo_url = "https://cdn.rawgit.com/hjnilsson/country-flags/master/png1000px/" + country_code + ".png"
 
-        comment = "I did my best to find the following flags: \n\n"
-        for object in o:
-            display_name = object.display_name
-            direct_link = object.direct_link
-            country_code = object.country_code
-            state_code = object.state_code
-            photo_url = "https://us.v-cdn.net/5018160/uploads/FileUpload/45/7c5d94954064b9f1953165ffe15f06.jpg"
-            if(direct_link):
-                photo_url = direct_link
-            elif(state_code):
-                photo_url = "http://usa.fmcdn.net/data/flags/w580/" + state_code + ".png"
-            elif(country_code):
-                photo_url = "https://cdn.rawgit.com/hjnilsson/country-flags/master/png1000px/" + country_code + ".png"
-
-            new_link = "[%s](%s)\n\n"%(display_name,photo_url)
-            comment+=new_link
-        if(len(o) > 0):
-            comment += "\n\n---\n\nLinks: [GitHub](https://github.com/SirLich/vexillology-bot/blob/master/README.md), [Complain](https://forms.gle/bYck6E7S2FRth2Ao8)"
-            tprint(comment)
-            tprint("")
-            comment = post.reply(comment)
+        new_link = "[%s](%s)\n\n"%(display_name,photo_url)
+        comment+=new_link
+    if(len(o) > 0):
+        comment += "\n\n---\n\nLinks: [GitHub](https://github.com/SirLich/vexillology-bot/blob/master/README.md), [Complain](https://forms.gle/bYck6E7S2FRth2Ao8)"
+        tprint(comment)
+        tprint("")
+        comment = post.reply(comment)
     blacklist(post)
     time.sleep(POST_DELAY)
 
 #The main looping part of the program
-def main():
-    tprint("VexillologyBot bot " + str(VERSION) + " has loaded!")
-    script_start = time.time()
+def start_bot():
+    if(TESTING):
+        test()
+    print("VexillologyBot bot " + str(VERSION) + " has loaded!")
+    script_start_time = time.time()
     while True:
         try:
             for post in subreddit.stream.submissions():
-                if(not blacklisted(post) and post.created_utc > TIME_FREEZE and (TESTING or post.link_flair_text is not None and (post.link_flair_text.strip().lower() == "redesigns" or post.link_flair_text.strip().lower() == "oc"))):
+                if(not blacklisted(post) and post.created_utc > script_start_time and (TESTING or post.link_flair_text is not None and (post.link_flair_text.strip().lower() == "redesigns" or post.link_flair_text.strip().lower() == "oc"))):
                     tprint("link: " + post.permalink)
                     handle_post(post)
 
         except Exception as e: tprint(e)
-main()
+
+def test():
+    while(True):
+        collect_locations(scrub_title(input(" > ")))
+
+
+start_bot()
