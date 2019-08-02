@@ -144,8 +144,6 @@ def handle_string(title):
 
 #The main looping part of the program
 def start_bot():
-    if(TESTING):
-        test()
     print("VexillologyBot bot " + str(VERSION) + " has loaded!")
     script_start_time = time.time()
     while True:
