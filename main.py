@@ -22,7 +22,7 @@ import asyncio
 VERSION = 1.4
 POST_DELAY = 10 #seconds
 COUNTRY_MATCH_THRESHOLD = 82
-TESTING = True
+TESTING = False
 
 
 #Setup
@@ -92,7 +92,7 @@ def handle_post(post):
     title = post.title
     title = scrub_title(title)
     o = handle_string(title)
-    comment = "I did my best to find the following flags: \n\n"
+    comment = "For your reference: \n\n"
     for object in o:
         display_name = object.display_name
         direct_link = object.direct_link
@@ -109,7 +109,7 @@ def handle_post(post):
         new_link = "[%s](%s)\n\n"%(display_name,photo_url)
         comment+=new_link
     if(len(o) > 0):
-        comment += "\n\n---\n\nLinks: [GitHub](https://github.com/SirLich/vexillology-bot/blob/master/README.md), [Complain](https://forms.gle/bYck6E7S2FRth2Ao8)"
+        comment += "\n\n---\n\nLinks: [Learn more](https://github.com/SirLich/vexillology-bot/blob/master/README.md), [Complain](https://forms.gle/bYck6E7S2FRth2Ao8)"
         tprint(comment)
         tprint("")
         comment = post.reply(comment)
@@ -132,12 +132,24 @@ def collect_locations(title):
 
                 alias = " " + alias + " "
                 fuzz_ratio = fuzz.partial_ratio(alias, title)
-                no_match_fuzz_ration = fuzz.partial_ratio(title,object.get("no-match"))
-                if(fuzz_ratio >= threshold and no_match_fuzz_ration < threshold):
-                    tprint("Match: " + alias + " " + str(fuzz_ratio) + " " + str(no_match_fuzz_ration))
+                no_match_fuzz_ratio = get_no_match_fuzz_ratio(title, object)
+                if(fuzz_ratio >= threshold and no_match_fuzz_ratio < threshold):
+                    tprint("Match: " + alias + " " + str(fuzz_ratio) + " " + str(no_match_fuzz_ratio))
                     o.add(LinkObject(object.get("display-name"),object.get("direct-link"),object.get("state-code"),object.get("country-code")))
                     break
         return o
+
+def get_no_match_fuzz_ratio(title, object):
+    match = 0
+    if "no-match" not in object:
+        return match
+    for alias in object.get("no-match"):
+        temp_match = fuzz.partial_ratio(title,alias)
+        if(temp_match > match):
+            match = temp_match
+    return match
+
+
 
 def handle_string(title):
     o = collect_locations(title)
@@ -160,5 +172,6 @@ def test():
     while(True):
         collect_locations(scrub_title(input(" > ")))
 
+#test()
 
 start_bot()

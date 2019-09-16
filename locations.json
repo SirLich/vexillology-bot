@@ -452,6 +452,7 @@
    {
       "display-name": "Dominica",
       "country-code": "dm",
+      "threshold": 100,
       "aliases": [
          "dominica"
       ]
@@ -593,7 +594,8 @@
       "display-name": "Georgia [country]",
       "country-code": "ge",
       "aliases": [
-         "georgia"
+         "georgia",
+         "georgian"
       ]
    },
    {
@@ -672,7 +674,7 @@
    {
       "display-name": "Guinea",
       "country-code": "gn",
-      "no-match": "papa",
+      "no-match": ["papa","equatorial","papau","bissau"],
       "aliases": [
          "guinea"
       ]
@@ -683,7 +685,7 @@
       "aliases": [
          "guinea-bissau",
          "guinea bissau"
-      ]
+       ]
    },
    {
       "display-name": "Guyana",
@@ -790,7 +792,8 @@
       "display-name": "Ireland",
       "country-code": "ie",
       "aliases": [
-         "ireland"
+         "ireland",
+         "irish"
       ]
    },
    {
@@ -804,7 +807,8 @@
       "display-name": "Israel",
       "country-code": "il",
       "aliases": [
-         "israel"
+         "israel",
+         "israeli"
       ]
    },
    {
@@ -833,7 +837,7 @@
    {
       "display-name": "Jersey",
       "country-code": "je",
-      "no-match": "new",
+      "no-match": ["new"],
       "aliases": [
          "jersey"
       ]
@@ -869,7 +873,7 @@
    {
       "display-name": "North Korea",
       "country-code": "kp",
-      "no-match": "south",
+      "no-match": ["south"],
       "aliases": [
          "north korea"
       ]
@@ -877,7 +881,7 @@
    {
       "display-name": "South Korea",
       "country-code": "kr",
-      "no-match": "north",
+      "no-match": ["north"],
       "aliases": [
          "south korea"
       ]
@@ -1054,6 +1058,7 @@
    {
       "display-name": "Mexico",
       "country-code": "mx",
+      "no-match": ["new"],
       "aliases": [
          "mexico",
          "mexican"
@@ -1105,7 +1110,8 @@
       "display-name": "Morocco",
       "country-code": "ma",
       "aliases": [
-         "morocco"
+         "morocco",
+         "moroccan"
       ]
    },
    {
@@ -1149,7 +1155,8 @@
       "display-name": "Netherlands",
       "country-code": "nl",
       "aliases": [
-         "netherlands"
+         "netherlands",
+         "dutch"
       ]
    },
    {
@@ -1254,7 +1261,8 @@
       "display-name": "Papua New Guinea",
       "country-code": "pg",
       "aliases": [
-         "papua new guinea"
+         "papua new guinea",
+         "papa new guinea"
       ]
    },
    {
@@ -1408,7 +1416,6 @@
       "display-name": "Saint Vincent and the Grenadines",
       "country-code": "vc",
       "aliases": [
-         "saint vincent and the grenadines",
          "saint vincent",
          "the grenadines"
       ]
@@ -1416,7 +1423,7 @@
    {
       "display-name": "Samoa",
       "country-code": "ws",
-      "no-match": "america",
+      "no-match": ["america"],
       "aliases": [
          "samoa"
       ]
@@ -1517,6 +1524,7 @@
    {
       "display-name": "South Africa",
       "country-code": "za",
+      "no-match": ["north africa"],
       "aliases": [
          "south africa"
       ]
@@ -1724,7 +1732,7 @@
    {
       "display-name": "United States",
       "country-code": "us",
-      "no-match": "samoa",
+      "no-match": ["samoa"],
       "aliases": [
          "united states",
          "america",
@@ -2060,21 +2068,22 @@
    {
       "display-name": "New Mexico",
       "aliases": [
-         "new mexico"
+         "new mexico",
+         "new mexican"
       ],
       "state-code": "nm"
    },
    {
       "display-name": "New York",
       "state-code": "ny",
-      "no-match": "city",
+      "no-match": ["city"],
       "aliases": [
          "new york"
       ]
    },
    {
       "display-name": "North Carolina",
-      "no-match": "south",
+      "no-match": ["south"],
       "aliases": [
          "north carolina"
       ],
@@ -2082,7 +2091,7 @@
    },
    {
       "display-name": "North Dakota",
-      "no-match": "south",
+      "no-match": ["south"],
       "state-code": "nd",
       "aliases": [
          "north dakota"
@@ -2133,7 +2142,7 @@
    },
    {
       "display-name": "South Dakota",
-      "no-match": "north",
+      "no-match": ["north"],
       "aliases": [
          "south dakota"
       ],
@@ -2171,13 +2180,14 @@
    {
       "display-name": "Virginia",
       "state-code": "va",
-      "no-match": "west",
+      "no-match": ["west"],
       "aliases": [
          "virginia"
       ]
    },
    {
       "display-name": "Washington",
+      "no-match": ["dc"],
       "aliases": [
          "washington"
       ],
@@ -2213,20 +2223,6 @@
       ]
    },
    {
-      "display-name": "Federated States of Micronesia",
-      "aliases": [
-         "federated states of micronesia"
-      ],
-      "state-code": "fm"
-   },
-   {
-      "display-name": "Marshall Islands",
-      "aliases": [
-         "marshall islands"
-      ],
-      "state-code": "mh"
-   },
-   {
       "display-name": "Palau",
       "aliases": [
          "palau"
@@ -2239,6 +2235,13 @@
          "virgin islands"
       ],
       "state-code": "vi"
+   },
+   {
+     "display-name": "Anguar, of Palau",
+     "aliases": [
+       "anguar"
+     ],
+     "direct-link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhvCxukZeV4VVA0yAXMw6l1HG3budKFhUpS1NcnLyPeG7v5fkC"
    },
    {
       "display-name": "Sealand",
@@ -2254,6 +2257,106 @@
         "bavaria",
         "bayern"
       ]
+   },
+   {
+     "display-name": "Baden-Württemberg",
+     "direct-link": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Baden-W%C3%BCrttemberg.svg/1920px-Flag_of_Baden-W%C3%BCrttemberg.svg.png",
+     "aliases": [
+       "baden-württemberg",
+       "baden-wurttemberg"
+     ]
+   },
+   {
+     "display-name": "Berlin",
+     "direct-link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Berlin.svg/255px-Flag_of_Berlin.svg.png",
+     "aliases": [
+       "berlin"
+     ]
+   },
+   {
+     "display-name": "Brandenburg",
+     "direct-link": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Brandenburg.svg/1920px-Flag_of_Brandenburg.svg.png",
+     "aliases": [
+       "brandenburg"
+     ]
+   },
+   {
+     "display-name": "Bremen",
+     "direct-link": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Flag_of_Bremen.svg/1920px-Flag_of_Bremen.svg.png",
+     "aliases": [
+       "bremen"
+     ]
+   },
+   {
+     "display-name": "Hamburg ",
+     "direct-link": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Flag_of_Hamburg.svg/1920px-Flag_of_Hamburg.svg.png",
+     "aliases": [
+       "hamburg"
+     ]
+   },
+   {
+     "display-name": "Hesse",
+     "direct-link": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Hesse.svg/1920px-Flag_of_Hesse.svg.png",
+     "aliases": [
+       "hesse"
+     ]
+   },
+   {
+     "display-name": "Lower Saxony",
+     "direct-link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Flag_of_Lower_Saxony.svg/1920px-Flag_of_Lower_Saxony.svg.png",
+     "aliases": [
+       "lower Saxony"
+     ]
+   },
+   {
+     "display-name": "Mecklenburg-Vorpommern",
+     "direct-link": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Mecklenburg-Western_Pomerania.svg/1920px-Flag_of_Mecklenburg-Western_Pomerania.svg.png",
+     "aliases": [
+       "mecklenburg-vorpommern"
+     ]
+   },
+   {
+     "display-name": "North Rhine-Westphalia",
+     "direct-link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_North_Rhine-Westphalia.svg/1920px-Flag_of_North_Rhine-Westphalia.svg.png",
+     "aliases": [
+       "north rhine-westphalia"
+     ]
+   },
+   {
+     "display-name": "Rhineland-Palatinate",
+     "direct-link": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Rhineland-Palatinate.svg/1920px-Flag_of_Rhineland-Palatinate.svg.png",
+     "aliases": [
+       "rhineland-palatinate"
+     ]
+   },
+   {
+     "display-name": "Saxony",
+     "direct-link": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Saxony.svg/1920px-Flag_of_Saxony.svg.png",
+     "no-match": ["lower"],
+     "aliases": [
+       "saxony"
+     ]
+   },
+   {
+     "display-name": "Saarland",
+     "direct-link": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Saarland.svg/1920px-Flag_of_Saarland.svg.png",
+     "aliases": [
+       "saarland"
+     ]
+   },
+   {
+     "display-name": "Schleswig-Holstein",
+     "direct-link": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Schleswig-Holstein.svg/1920px-Flag_of_Schleswig-Holstein.svg.png",
+     "aliases": [
+       "schleswig-holstein"
+     ]
+   },
+   {
+     "display-name": "Thuringia",
+     "direct-link": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Flag_of_Thuringia.svg/1920px-Flag_of_Thuringia.svg.png",
+     "aliases": [
+       "thuringia"
+     ]
    },
    {
       "display-name": "European Union",
@@ -2276,6 +2379,43 @@
       "direct-link": "https://cdn.countryflags.com/thumbs/kosovo/flag-400.png",
       "aliases": [
         "kosovo"
+      ]
+   },
+   {
+      "display-name": "Wales",
+      "direct-link": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Wales_%281959%E2%80%93present%29.svg",
+      "aliases": [
+        "wales",
+        "welsh"
+      ]
+   },
+   {
+      "display-name": "Isle of Goliad",
+      "direct-link": "https://www.alternatehistory.com/forum/attachments/1024px-goliad_flag-png.233387/",
+      "aliases": [
+        "Isle of Goliad"
+      ]
+   },
+   {
+      "display-name": "Kurdistan",
+      "direct-link": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Flag_of_Kurdistan.svg/1280px-Flag_of_Kurdistan.svg.png",
+      "aliases": [
+        "kurdistan"
+      ]
+   },
+   {
+      "display-name": "Navajo",
+      "direct-link": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Navajo_flag.svg",
+      "aliases": [
+        "navajo"
+      ]
+   },
+   {
+      "display-name": "Soviet Union",
+      "direct-link": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_Soviet_Union.svg",
+      "aliases": [
+        "ussr",
+        "soviet union"
       ]
    }
 ]
