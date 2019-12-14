@@ -4,36 +4,43 @@ import praw #https://praw.readthedocs.io/en/latest/
 import time
 import sched
 from fuzzywuzzy import fuzz #https://github.com/seatgeek/fuzzywuzzy
-#from googlesearch import search #https://pypi.org/project/google/#description
 import json
 import re
 import asyncio
+import threading
+import queue
+from random import random
+
 
 #Flags Credit:
-#Country flag: http://hjnilsson.github.io/country-flags/
-#State flag:
-#City and world flag: https://www.crwflags.com/fotw/flags/
+# http://hjnilsson.github.io/country-flags/
+# http://usa.fmcdn.net
+# https://www.crwflags.com/fotw/flags/
+# https://flagpedia.net
 
 #Toolset Credit:
-#Atom: https://atom.io/
-#Python tools for atom: https://atom.io/packages/python-tools
+#Atom and VSCode: https://atom.io/, https://code.visualstudio.com/
 
 #Globals
-VERSION = 1.4
+VERSION = 2.0
 POST_DELAY = 10 #seconds
-COUNTRY_MATCH_THRESHOLD = 82
-TESTING = False
+FUZZY_MATCH_THRESHOLD = 82
+RESPONSE_DELAY = 30 #This gives the person some time to add a flair
+RESPONSE_RETRIES = 30
+NUM_WORKER_THREADS = 5
+COUNTRY_URL = "https://flagpedia.net/data/flags/w580/COUNTRY_CODE.png"
+STATE_URL = "https://usa.flagpedia.net/data/flags/w580/STATE_CODE.png"
+
+# Old:
+# STATE_URL = http://usa.fmcdn.net/data/flags/w580/STATE_CODE.png
+# COUNTRY_URL = https://cdn.rawgit.com/hjnilsson/country-flags/master/png1000px/COUNTRY_CODE.png
 
 
 #Setup
 LOGIN = "login.txt"
 LOCATIONS = "locations.json"
-BLACKLIST = "blacklist.txt"
 SUBREDDIT = "vexillology"
-
-if(TESTING):
-    SUBREDDIT = "sirlichbottesting"
-
+# SUBREDDIT = "sirlichbottesting"
 
 login_file = open(LOGIN, "r")
 
@@ -46,7 +53,7 @@ USER_AGENT = "SirLich"
 #This variable holds the instance of PRAW that will talk to the reddit API
 reddit = praw.Reddit(client_id=CLIENT_ID,client_secret=CLIENT_SECRET,password=PASSWORD,user_agent=USER_AGENT,username=USERNAME,)
 
-#Setup the subreedit we will use
+#Setup the subreddit we will use
 subreddit = reddit.subreddit(SUBREDDIT)
 
 #Temp class used for things
@@ -57,29 +64,7 @@ class LinkObject:
         self.state_code = state_code
         self.country_code = country_code
 
-
-#This function determines whether a comment should be left on a post
-def blacklisted(post):
-    f = open(BLACKLIST,"r")
-    for line in f:
-        if post.id in line:
-            f.close()
-            return True
-    f.close()
-    return False
-
-#Blacklist a post to stop further comments being made on it
-def blacklist(post):
-    f = open(BLACKLIST,"a")
-    f.write(post.id + " " + post.title)
-    f.write("\n")
-    f.close()
-
-def tprint(m):
-    if(TESTING):
-        print(m)
-
-
+#Cleans post title for processing
 def scrub_title(title):
     regex = re.compile('[^a-zA-Z ]')
     title = regex.sub(' ',title)
@@ -87,58 +72,71 @@ def scrub_title(title):
     return title
 
 
-#Handle the post!
+#Handles an individual post
 def handle_post(post):
-    title = post.title
-    title = scrub_title(title)
-    o = handle_string(title)
-    comment = "For your reference: \n\n"
-    for object in o:
+    title = scrub_title(post.title)
+    link_objects = collect_locations(title)
+
+    #If no flags are found, return
+    if(len(link_objects) == 0):
+        return
+
+    #Just a little old-school easteregg
+    if(random() < 0.001):
+        comment = "I did my best to find the following flags : \n\n"
+    else:
+        comment = "For your reference: \n\n"
+
+    for object in link_objects:
         display_name = object.display_name
         direct_link = object.direct_link
         country_code = object.country_code
         state_code = object.state_code
-        photo_url = "https://us.v-cdn.net/5018160/uploads/FileUpload/45/7c5d94954064b9f1953165ffe15f06.jpg"
+        photo_url = ""
         if(direct_link):
             photo_url = direct_link
         elif(state_code):
-            photo_url = "http://usa.fmcdn.net/data/flags/w580/" + state_code + ".png"
+            photo_url = STATE_URL.replace("STATE_CODE", state_code)
         elif(country_code):
-            photo_url = "https://cdn.rawgit.com/hjnilsson/country-flags/master/png1000px/" + country_code + ".png"
+            photo_url = COUNTRY_URL.replace("COUNTRY_CODE", country_code)
+        
+        #Append the new correctly formatted link
+        comment += "[%s](%s)\n\n"%(display_name,photo_url)
+    
+    #Append the final comment message
+    comment += "\n\n---\n\nLinks: [Learn more](https://github.com/SirLich/vexillology-bot/blob/master/README.md), Contact the [maintainer](https://www.reddit.com/user/SirLich)."
+    print(comment)
+    print("")
+    comment = post.reply(comment)
 
-        new_link = "[%s](%s)\n\n"%(display_name,photo_url)
-        comment+=new_link
-    if(len(o) > 0):
-        comment += "\n\n---\n\nLinks: [Learn more](https://github.com/SirLich/vexillology-bot/blob/master/README.md), [Complain](https://forms.gle/bYck6E7S2FRth2Ao8)"
-        tprint(comment)
-        tprint("")
-        comment = post.reply(comment)
-    blacklist(post)
-    time.sleep(POST_DELAY)
-
-
+#Takes a string, and returns a list of link-objects, based on the found-flags
 def collect_locations(title):
     with open(LOCATIONS, "r+") as outfile:
         data = json.load(outfile)
-        o = set()
+        link_objects = set()
         for object in data:
             for alias in object.get("aliases"):
-                threshold = COUNTRY_MATCH_THRESHOLD
+                threshold = FUZZY_MATCH_THRESHOLD
+
+                #Small flag titles should be forced into an absolute match
                 if(len(alias) < 8):
                     threshold = 100
 
+                #Flags can also provide their own threshold
                 if(object.get("threshold")):
                     threshold = object.get("threshold")
-
+                
+                #Flag titles get padded with extra space to avoid inconsistancies at the edges
                 alias = " " + alias + " "
                 fuzz_ratio = fuzz.partial_ratio(alias, title)
                 no_match_fuzz_ratio = get_no_match_fuzz_ratio(title, object)
                 if(fuzz_ratio >= threshold and no_match_fuzz_ratio < threshold):
-                    tprint("Match: " + alias + " " + str(fuzz_ratio) + " " + str(no_match_fuzz_ratio))
-                    o.add(LinkObject(object.get("display-name"),object.get("direct-link"),object.get("state-code"),object.get("country-code")))
+                    print("Match: " + alias + " " + str(fuzz_ratio) + " " + str(no_match_fuzz_ratio))
+                    link_objects.add(LinkObject(object.get("display-name"),object.get("direct-link"),object.get("state-code"),object.get("country-code")))
                     break
-        return o
+        return link_objects
 
+#Helper method to determine the fuzzing of the no-match list
 def get_no_match_fuzz_ratio(title, object):
     match = 0
     if "no-match" not in object:
@@ -150,28 +148,57 @@ def get_no_match_fuzz_ratio(title, object):
     return match
 
 
+#Worker will take posts from post_queue and asynchroniously handle them 
+def worker():
+    while True:
+        post = post_queue.get()
+        id = post.id
+        if post is None:
+            break
 
-def handle_string(title):
-    o = collect_locations(title)
-    return o
+        for i in range(RESPONSE_RETRIES):
+
+            #Retrieve post to refresh flair
+            post = reddit.submission(id)
+            if(is_flair_valid(post)):
+                handle_post(post)
+                post_queue.task_done()
+                break
+            time.sleep(RESPONSE_DELAY)
+
+#Create queue of posts
+post_queue = queue.Queue()
+
+#Start worker threads
+for i in range(NUM_WORKER_THREADS):
+    t = threading.Thread(target=worker)
+    t.start()
+
+#Helper function for determining flair validity
+def is_flair_valid(post):
+    return (post.link_flair_text is not None and (post.link_flair_text.lower() == "redesigns" or post.link_flair_text.strip().lower() == "oc"))
 
 #The main looping part of the program
 def start_bot():
     print("VexillologyBot bot " + str(VERSION) + " has loaded! >> " + SUBREDDIT)
-    script_start_time = time.time()
+    SCRIPT_START_TIME = time.time()
     while True:
         try:
+            #Loops through all subreddit posts, including historic ones:
             for post in subreddit.stream.submissions():
-                if(not blacklisted(post) and post.created_utc > script_start_time and (TESTING or post.link_flair_text is not None and (post.link_flair_text.strip().lower() == "redesigns" or post.link_flair_text.strip().lower() == "oc"))):
-                    tprint("link: " + post.permalink)
-                    handle_post(post)
 
-        except Exception as e: tprint(e)
+                #Only seriously handle new posts
+                if(post.created_utc > SCRIPT_START_TIME):
+                    print("Handling: " + post.title)
+
+                    #Queue up post for handling
+                    post_queue.put(post)
+
+        except Exception as e: print(e)
 
 def test():
     while(True):
         collect_locations(scrub_title(input(" > ")))
 
-#test()
-
+# test()
 start_bot()
