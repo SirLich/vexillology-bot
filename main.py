@@ -1,9 +1,10 @@
 #! /usr/bin/python3
 
 import praw #https://praw.readthedocs.io/en/latest/
+from fuzzywuzzy import fuzz #https://github.com/seatgeek/fuzzywuzzy
+
 import time
 import sched
-from fuzzywuzzy import fuzz #https://github.com/seatgeek/fuzzywuzzy
 import json
 import re
 import asyncio
@@ -19,10 +20,11 @@ from random import random
 # https://flagpedia.net
 
 #Toolset Credit:
-#Atom and VSCode: https://atom.io/, https://code.visualstudio.com/
+# Atom: https://atom.io/
+# VSCode: https://code.visualstudio.com/
 
 #Globals
-VERSION = 2.0
+VERSION = 2.1
 POST_DELAY = 10 #seconds
 FUZZY_MATCH_THRESHOLD = 82
 RESPONSE_DELAY = 30 #This gives the person some time to add a flair
@@ -39,8 +41,9 @@ STATE_URL = "https://usa.flagpedia.net/data/flags/w580/STATE_CODE.png"
 #Setup
 LOGIN = "login.txt"
 LOCATIONS = "locations.json"
-SUBREDDIT = "vexillology"
-# SUBREDDIT = "sirlichbottesting"
+
+#SUBREDDIT = "vexillology"
+SUBREDDIT = "sirlichbottesting"
 
 login_file = open(LOGIN, "r")
 
@@ -81,7 +84,7 @@ def handle_post(post):
     if(len(link_objects) == 0):
         return
 
-    #Just a little old-school easteregg
+    #Just a little old-school easter-egg
     if(random() < 0.001):
         comment = "I did my best to find the following flags : \n\n"
     else:
